@@ -54,7 +54,9 @@ hr{
                 padding-top: 0rem;
                }
  @media only screen and (min-width: 600px){
-  .top_container {width:55rem;}
+  .top_container {
+                  height:50rem;
+                  width:55rem;}
   }
 .t_h1{
     color:#004f8b;
