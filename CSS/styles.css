@@ -48,7 +48,7 @@ hr{
      }
 .top_container {
                 height:41rem;
-                width: 50rem;/*45rem; 38.75rem;*/
+                width: 45rem;/* 38.75rem;*/
                 background-color: #9ED5C5;
                 position:relative;
                 padding-top: 0rem;
@@ -70,7 +70,7 @@ hr{
     left: 14rem;
       }
 .lake{
-     width:50rem;/*45rem;/*38.75rem;*/
+     width:45rem;/*38.75rem;*/
      height:15.625rem;
      position: absolute;
      left: 0rem;
@@ -105,7 +105,7 @@ hr{
               bottom: 15.625rem;
              }
 .mid_container{
-              width: 50rem; /*45rem;*/
+              width: 45rem;
               background-color: white;
               }
 .profile{
@@ -290,7 +290,7 @@ hr{
 }
 .top_container2{
                 height:5rem;
-                width: 50rem;/*45rem; /*38.75rem;*/
+                width: 45rem; /*38.75rem;*/
                 background-color: #9ED5C5;
                 position:relative;
                 margin:0rem;
@@ -299,7 +299,7 @@ hr{
                 }
 .top_container3{
                  height:8rem;
-                 width: 50rem;/*45rem; /*38.75rem;*/
+                 width: 45rem; /*38.75rem;*/
                  background-color: #9ED5C5;
                  position:relative;
                  margin: 0rem;
