@@ -320,17 +320,17 @@ hr{
                                                  height: 32rem; 
                                                  width: 55rem;
                                                  }
-                                            .comp2{
+                                           .comp2{
                                                   height:13rem;
                                                   width:13rem;
                                                   left:26rem;
                                                   }
-                                            .esp{
-                                                  width : 8rem;
-                                                  height: 8rem;
-                                                  left: 17rem;
+                                           .esp{
+                                                 width : 8rem;
+                                                 height: 8rem;
+                                                 left: 17rem;
                                                 }
-                                            .top_cloud{
+                                           .top_cloud{
                                                        width: 10rem;
                                                        height: 9rem;
                                                        right: 6rem;
@@ -340,7 +340,7 @@ hr{
                                                          width: 9rem;
                                                          height: 8rem;
                                                          left:3rem;
-                                                         bottom: 20rem;
+                                                         bottom: 40rem;
                                                          }
                                             .mid_container{width:55rem;}
                                             .profile{height:35rem;}
