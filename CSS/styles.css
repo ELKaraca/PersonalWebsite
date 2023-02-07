@@ -302,34 +302,38 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                            .top_container{
-                                                          height: 74.4rem;
+                                                          height: 74rem;
                                                           width: 55rem;
                                                           }
                                            .t_h1{
                                                 font-size:5rem;
-                                                top:2rem;
+                                                left:13rem;
+                                                top:7rem;
                                                 
                                                  }
                                            .t_lh2{
                                                   font-size:3.3rem;
-                                                  top:2rem;
-                                                 }
+                                                  left:13rem;
+                                                  top:7rem;
+                                                  }
                                            .lake{
-                                                 height: 34rem; 
+                                                 height: 33rem; 
                                                  width: 55rem;
                                                  }
                                             .comp2{
                                                   height:11rem;
                                                   width:11rem;
+                                                  left:23rem;
                                                   }
                                             .esp{
                                                   width : 6rem;
                                                   height: 6rem;
+                                                  left: 18rem;
                                                 }
                                             .top_cloud{
                                                        width: 9rem;
                                                        height: 8rem;
-                                                       right: 4rem;
+                                                       right: 6rem;
                                                        top: 2rem;
                                                        }
                                             .bottom_cloud{
@@ -356,9 +360,13 @@ hr{
                                                           }
                                             .t_h1{
                                                 font-size:4rem;
-                                                 }
+                                                left:13rem;
+                                                top:5rem;
+                                                  }
                                             .t_lh2{
                                                   font-size:2.3rem;
+                                                  left:13rem;
+                                                  top:5rem;
                                                   }
                                             .lake{
                                                  height:15.625rem;
@@ -367,18 +375,24 @@ hr{
                                             .comp2{
                                                   height:10rem;
                                                   width:10rem;
+                                                  left:20rem;
                                                   }
                                             .esp{
                                                   width : 5rem;
                                                   height: 5rem;
+                                                  left: 15rem;
                                                 }
                                             .top_cloud{
                                                        width: 7rem;
                                                        height: 6rem;
+                                                       left:2rem;
+                                                       top:0rem;
                                                       }
                                             .bottom_cloud{
                                                          width: 7rem;
                                                          height: 6rem;
+                                                         left:2.5rem;
+                                                         bottom: 15.625rem;
                                                          }
                       
                                             .profile{height:25rem;}
