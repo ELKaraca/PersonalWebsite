@@ -308,27 +308,27 @@ hr{
                                            .t_h1{
                                                 font-size:5rem;
                                                 left:13rem;
-                                                top:7rem;
+                                                top:8rem;
                                                 
                                                  }
                                            .t_lh2{
                                                   font-size:3.3rem;
                                                   left:13rem;
-                                                  top:16rem;
+                                                  top:17rem;
                                                   }
                                            .lake{
-                                                 height: 33rem; 
+                                                 height: 32rem; 
                                                  width: 55rem;
                                                  }
                                             .comp2{
-                                                  height:11rem;
-                                                  width:11rem;
-                                                  left:23rem;
+                                                  height:12rem;
+                                                  width:12rem;
+                                                  left:24rem;
                                                   }
                                             .esp{
-                                                  width : 6rem;
-                                                  height: 6rem;
-                                                  left: 18rem;
+                                                  width : 7rem;
+                                                  height: 7rem;
+                                                  left: 17rem;
                                                 }
                                             .top_cloud{
                                                        width: 9rem;
@@ -339,7 +339,8 @@ hr{
                                             .bottom_cloud{
                                                          width: 9rem;
                                                          height: 8rem;
-                                                         bottom: 20rem;
+                                                         bottom: 10rem;
+                                                         left:2rem;
                                                          }
                            
                                             .mid_container{width:55rem;}
@@ -385,7 +386,7 @@ hr{
                                             .top_cloud{
                                                        width: 7rem;
                                                        height: 6rem;
-                                                       left:2rem;
+                                                       right:2rem;
                                                        top:0rem;
                                                       }
                                             .bottom_cloud{
