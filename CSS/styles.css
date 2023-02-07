@@ -308,7 +308,7 @@ hr{
                                            .t_h1{
                                                 font-size:5rem;
                                                 left:13rem;
-                                                top:8rem;
+                                                top:8.5rem;
                                                 
                                                  }
                                            .t_lh2{
@@ -321,25 +321,25 @@ hr{
                                                  width: 55rem;
                                                  }
                                             .comp2{
-                                                  height:12rem;
-                                                  width:12rem;
-                                                  left:24rem;
+                                                  height:13rem;
+                                                  width:13rem;
+                                                  left:26rem;
                                                   }
                                             .esp{
-                                                  width : 7rem;
-                                                  height: 7rem;
+                                                  width : 8rem;
+                                                  height: 8rem;
                                                   left: 17rem;
                                                 }
                                             .top_cloud{
-                                                       width: 9rem;
-                                                       height: 8rem;
+                                                       width: 10rem;
+                                                       height: 9rem;
                                                        right: 6rem;
                                                        top: 2rem;
                                                        }
                                             .bottom_cloud{
                                                          width: 9rem;
                                                          height: 8rem;
-                                                         bottom: 10rem;
+                                                         bottom: 5rem;
                                                          left:2rem;
                                                          }
                            
