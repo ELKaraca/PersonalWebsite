@@ -301,7 +301,7 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                            .top_container{
-                                                          height: 60rem;
+                                                          height: 90rem;
                                                           width: 55rem;/* 38.75rem;*/
                                                           }
                                            .lake{
