@@ -86,12 +86,12 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                            .top_container{
-                                                          height: 41rem;
+                                                          height: 60rem;
                                                           width: 55rem;/* 38.75rem;*/
                                                           }
                                            .lake{
+                                                 height: 20rem; 
                                                  width: 55rem;/*38.75rem;*/
-                                                 height: 60rem;
                                                  }
                                             .mid_container{width:55rem;}
                                             .bottom_container{width:55rem;}
