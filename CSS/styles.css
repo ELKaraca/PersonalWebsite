@@ -302,17 +302,40 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                            .top_container{
-                                                          height: 75rem;
+                                                          height: 74.5rem;
                                                           width: 55rem;
                                                           }
+                                           .t_h1{
+                                                font-size:5rem;
+                                                 }
+                                           .t_lh2{
+                                                  font-size:3.3rem;
+                                                  }
                                            .lake{
-                                                 height: 45rem; 
+                                                 height: 35rem; 
                                                  width: 55rem;
                                                  }
+                                            .comp2{
+                                                  height:11rem;
+                                                  width:11rem;
+                                                  }
+                                            .esp{
+                                                  width : 6rem;
+                                                  height: 6rem;
+                                                }
+                                            .top_cloud{
+                                                       width: 8rem;
+                                                       height: 7rem;
+                                                      }
+                                            .bottom_cloud{
+                                                         width: 8rem;
+                                                         height: 7rem;
+                                                         }
+                           
                                             .mid_container{width:55rem;}
                                             .profile{height:35rem;}
                                             .profile-text1{font-size:4rem;}
-                                            .profile-text2{font-size:1.6rem;}
+                                            .profile-text2{font-size:1.6rem;}           
                                             .bottom_container{width:55rem;}
                                              }
 
@@ -324,17 +347,41 @@ hr{
                                            .top_container{
                                                          height:41rem;
                                                          width:45rem;
-                                                          }    
-                                           .lake{
+                                                          }
+                                            .t_h1{
+                                                font-size:4rem;
+                                                 }
+                                            .t_lh2{
+                                                  font-size:2.3rem;
+                                                  }
+                                            .lake{
                                                  height:15.625rem;
                                                  width:45rem;
                                                  }
+                                            .comp2{
+                                                  height:10rem;
+                                                  width:10rem;
+                                                  }
+                                            .esp{
+                                                  width : 5rem;
+                                                  height: 5rem;
+                                                }
+                                            .top_cloud{
+                                                       width: 7rem;
+                                                       height: 6rem;
+                                                      }
+                                            .bottom_cloud{
+                                                         width: 7rem;
+                                                         height: 6rem;
+                                                         }
+                      
                                             .profile{height:25rem;}
                                             .profile-text1{font-size:3rem;}
                                             .profile-text2{font-size:1rem;}
                                             .mid_container{width:45rem;}
                                             .bottom_container{width:45rem;}
                                             }
+                                                   
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {   }
 
