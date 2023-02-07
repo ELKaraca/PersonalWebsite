@@ -308,7 +308,7 @@ hr{
                                            .t_h1{
                                                 font-size:5rem;
                                                 left:13rem;
-                                                top:8.5rem;
+                                                top:9rem;
                                                 
                                                  }
                                            .t_lh2{
@@ -339,10 +339,9 @@ hr{
                                             .bottom_cloud{
                                                          width: 9rem;
                                                          height: 8rem;
-                                                         bottom: 5rem;
+                                                         bottom: 15rem;
                                                          left:2rem;
                                                          }
-                           
                                             .mid_container{width:55rem;}
                                             .profile{height:35rem;}
                                             .profile-text1{font-size:4rem;}
@@ -355,9 +354,9 @@ hr{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-                                           .top_container{
-                                                         height:41rem;
-                                                         width:45rem;
+                                            .top_container{
+                                                          height:41rem;
+                                                          width:45rem;
                                                           }
                                             .t_h1{
                                                 font-size:4rem;
