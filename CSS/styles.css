@@ -112,6 +112,7 @@ hr{
               background-color: white;
               }
 .profile{
+         height:25rem;
          background-color: #BCEAD5;
          padding-top: 1.25rem;
          }
@@ -301,7 +302,7 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                            .top_container{
-                                                          height: 90rem;
+                                                          height: 80rem;
                                                           width: 55rem;/* 38.75rem;*/
                                                           }
                                            .lake{
@@ -309,7 +310,7 @@ hr{
                                                  width: 55rem;/*38.75rem;*/
                                                  }
                                             .mid_container{width: 55rem;}
-                                            .profile{height: 10rem;}
+                                            .profile{height: 25rem;}
                                             .bottom_container{width: 55rem;}
                                              }
 
@@ -325,8 +326,8 @@ hr{
                                            .lake{
                                                  height:15.625rem;
                                                  width:45rem;
-                                                 
                                                  }
+                                            .profile{height: 25rem;}
                                             .mid_container{width:45rem;}
                                             .bottom_container{width:45rem;}
 
