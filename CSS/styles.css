@@ -78,46 +78,6 @@ hr{
      bottom: 0rem;
      }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-                                          }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-                                           .top_container{
-                                                          height: 60rem;
-                                                          width: 55rem;/* 38.75rem;*/
-                                                          }
-                                           .lake{
-                                                 height: 20rem; 
-                                                 width: 55rem;/*38.75rem;*/
-                                                 }
-                                            .mid_container{width:55rem;}
-                                            .bottom_container{width:55rem;}
-                                             }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {   }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-                                           .top_container{
-                                                         height: 41rem;
-                                                         width: 45rem;
-                                                          }
-     
-                                           .lake{
-                                                 width:45rem;/*38.75rem;*/
-                                                 height:15.625rem*/;
-                                                 }
-                                            .mid_container{width:55rem;}
-                                            .bottom_container{width:55rem;}
-
-                                            }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {   }
-
 
 .comp2{
        width : 10rem;
@@ -331,6 +291,52 @@ hr{
    border-radius: 1.25rem;
    text-decoration: none;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+                                          }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+                                           .top_container{
+                                                          height: 60rem;
+                                                          width: 55rem;/* 38.75rem;*/
+                                                          }
+                                           .lake{
+                                                 height: 30rem; 
+                                                 width: 55rem;/*38.75rem;*/
+                                                 }
+                                            .mid_container{width:55rem;}
+                                            .bottom_container{width:55rem;}
+                                             }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+                                           .top_container{
+                                                         height: 41rem;
+                                                         width: 45rem;
+                                                          }
+     
+                                           .lake{
+                                                 width:45rem;/*38.75rem;*/
+                                                 height:15.625rem*/;
+                                                 }
+                                            .mid_container{width:45rem;}
+                                            .bottom_container{width:45rem;}
+
+                                            }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {   }
+
+
+
+
+
 .top_container2{
                 height:5rem;
                 width: 45rem; /*38.75rem;*/
