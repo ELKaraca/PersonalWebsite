@@ -48,12 +48,11 @@ hr{
      }
 .top_container {
                 height:41rem;
-                width: 45rem;/* 38.75rem;*/
+                width: 45rem;
                 background-color: #9ED5C5;
                 position:relative;
                 padding-top: 0rem;
                }
- 
 .t_h1{
     color:#004f8b;
     font-family:'Itim', cursive;
@@ -77,8 +76,6 @@ hr{
      left: 0rem;
      bottom: 0rem;
      }
-
-
 .comp2{
        width : 10rem;
        height: 10rem;
@@ -116,11 +113,14 @@ hr{
          background-color: #BCEAD5;
          padding-top: 1.25rem;
          }
+
 .profile-text1{
               color: #004f8b;
+              font-size:3rem;
               margin: 0.625rem;
               }
 .profile-text2{
+               font-size:1rem;
                margin:0rem;
                padding-left:5rem;
                padding-right:5rem;
@@ -303,15 +303,17 @@ hr{
 @media only screen and (min-width: 600px) {
                                            .top_container{
                                                           height: 80rem;
-                                                          width: 55rem;/* 38.75rem;*/
+                                                          width: 55rem;
                                                           }
                                            .lake{
                                                  height: 45rem; 
-                                                 width: 55rem;/*38.75rem;*/
+                                                 width: 55rem;
                                                  }
-                                            .mid_container{width: 55rem;}
-                                            .profile{height: 25rem;}
-                                            .bottom_container{width: 55rem;}
+                                            .mid_container{width:55rem;}
+                                            .profile{height:25rem;}
+                                            .profile-text1{font-size:4rem;}
+                                            .profile-text2{font-size:1.3rem;}
+                                            .bottom_container{width:55rem;}
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -320,17 +322,18 @@ hr{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
                                            .top_container{
-                                                         height: 41rem;
-                                                         width: 45rem;
+                                                         height:41rem;
+                                                         width:45rem;
                                                           }    
                                            .lake{
                                                  height:15.625rem;
                                                  width:45rem;
                                                  }
-                                            .profile{height: 25rem;}
+                                            .profile{height:25rem;}
+                                            .profile-text1{font-size:3rem;}
+                                            .profile-text2{font-size:1rem;}
                                             .mid_container{width:45rem;}
                                             .bottom_container{width:45rem;}
-
                                             }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {   }
