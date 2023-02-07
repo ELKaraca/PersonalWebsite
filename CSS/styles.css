@@ -308,8 +308,9 @@ hr{
                                                  height: 45rem; 
                                                  width: 55rem;/*38.75rem;*/
                                                  }
-                                            .mid_container{width:55rem;}
-                                            .bottom_container{width:55rem;}
+                                            .mid_container{width: 55rem;}
+                                            .profile{height: 10rem;}
+                                            .bottom_container{width: 55rem;}
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -322,8 +323,9 @@ hr{
                                                          width: 45rem;
                                                           }    
                                            .lake{
-                                                 width:45rem;/*38.75rem;*/
                                                  height:15.625rem;
+                                                 width:45rem;
+                                                 
                                                  }
                                             .mid_container{width:45rem;}
                                             .bottom_container{width:45rem;}
