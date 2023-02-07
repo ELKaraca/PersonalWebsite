@@ -305,7 +305,7 @@ hr{
                                                           width: 55rem;/* 38.75rem;*/
                                                           }
                                            .lake{
-                                                 height: 30rem; 
+                                                 height: 45rem; 
                                                  width: 55rem;/*38.75rem;*/
                                                  }
                                             .mid_container{width:55rem;}
@@ -320,11 +320,10 @@ hr{
                                            .top_container{
                                                          height: 41rem;
                                                          width: 45rem;
-                                                          }
-     
+                                                          }    
                                            .lake{
                                                  width:45rem;/*38.75rem;*/
-                                                 height:15.625rem*/;
+                                                 height:15.625rem;
                                                  }
                                             .mid_container{width:45rem;}
                                             .bottom_container{width:45rem;}
