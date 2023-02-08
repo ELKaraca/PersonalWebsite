@@ -293,173 +293,6 @@ hr{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
-                                          }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-                                            h2{font-size:3.5rem;}
-                                           .h3_skills{font-size:2rem;}
-                                           .top_container{
-                                                          height: 73rem;
-                                                          width: 55rem;
-                                                          }
-                                           .top_container2{width:55rem;}
-                                           .top_container3{width:55rem;}
-                                           .t_h1{
-                                                font-size:6rem;
-                                                left:13rem;
-                                                top:12rem;
-                                                 }
-                                           .t_lh2{
-                                                  font-size:3.75rem;
-                                                  left:15rem;
-                                                  top:19rem;
-                                                  }
-                                           .lake{
-                                                 height: 32rem; 
-                                                 width: 55rem;
-                                                 }
-                                           .comp2{
-                                                  height:13rem;
-                                                  width:13rem;
-                                                  left:26rem;
-                                                  }
-                                           .esp{
-                                                 width : 8rem;
-                                                 height: 8rem;
-                                                 left: 17rem;
-                                                }
-                                           .top_cloud{
-                                                       width: 11rem;
-                                                       height: 10rem;
-                                                       right: 3rem;
-                                                       top: 2rem;
-                                                       }
-                                            .bottom_cloud{
-                                                         width: 11rem;
-                                                         height: 10rem;
-                                                         left:3rem;
-                                                         bottom: 35rem;
-                                                         }
-                                            .mid_container{width:55rem;}
-                                            .profile{height:36rem;}
-                                            .profile-text1{font-size:4rem;}
-                                            .profile-text2{font-size:1.6rem;}           
-                                            .manager{
-                                                     width:8rem;
-                                                     height:8rem;     
-                                                     left:1.5rem;
-                                                    }
-                                            .comp{
-                                                  width:8rem;
-                                                  height:8rem;        
-                                                  right:4rem;
-                                                 }
-                                            
-                                            .skills{font-size:1.4rem;}
-                                            .skill1A{
-                                                     height:8rem;
-                                                     width:8rem;
-                                                    }
-                                            .skill1B{
-                                                     width:33rem;
-                                                    }
-                                            .skill2A{
-                                                     width:33rem;
-                                                     }      
-                                            .skill2B{
-                                                     right:2rem;
-                                                    }     
-                                            .bottom_container{width:55rem;}
-                                             }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {   }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-                                            h2{font-size:2.5rem;} 
-                                            .h3_skills{font-size:1.6rem;}
-                                            .top_container{
-                                                          height:41rem;
-                                                          width:45rem;
-                                                          }
-                                            .top_container2{width:45rem;}
-                                            .top_container3{width:45rem;}                                              
-                                            .t_h1{
-                                                font-size:4rem;
-                                                left:13rem;
-                                                top:5rem;
-                                                  }
-                                            .t_lh2{
-                                                  font-size:2.3rem;
-                                                  left:15rem;
-                                                  top:11rem;
-                                                  }
-                                            .lake{
-                                                 height:15.625rem;
-                                                 width:45rem;
-                                                 }
-                                            .comp2{
-                                                  height:10rem;
-                                                  width:10rem;
-                                                  left:20rem;
-                                                  }
-                                            .esp{
-                                                  width : 5rem;
-                                                  height: 5rem;
-                                                  left: 15rem;
-                                                }
-                                            .top_cloud{
-                                                       width: 7rem;
-                                                       height: 6rem;
-                                                       right:2rem;
-                                                       top:0rem;
-                                                      }
-                                            .bottom_cloud{
-                                                         width: 7rem;
-                                                         height: 6rem;
-                                                         left:2.5rem;
-                                                         bottom: 15.625rem;
-                                                         }
-                      
-                                            .profile{height:25rem;}
-                                            .profile-text1{font-size:3rem;}
-                                            .profile-text2{font-size:1rem;}
-                                            .mid_container{width:45rem;}
-                                            .manager{
-                                                     width:6.7rem;
-                                                     height:6.7rem;     
-                                                     left:0rem;
-                                                    }
-                                            .comp{
-                                                  width:6.7rem;
-                                                  height:6.7rem;                                                      
-                                                  right:0rem;
-                                                 }
-                                            .skills{font-size:1rem;}
-                                            .skill1A{
-                                                     height:8rem;
-                                                     width:8rem;
-                                                     }      
-                                            .skill1B{
-                                                     width:28rem;
-                                                    }
-                                            .skill2A{
-                                                     width:28rem;
-                                                     }      
-                                            .skill2B{
-                                                     right:0rem;
-                                                    }
-                                            .bottom_container{width:45rem;}
-                                            }
-                                                   
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {   }
-
 
 .top_container2{
                 height:5rem;
@@ -635,3 +468,170 @@ hr{
        bottom:0.7rem;
        left:1rem;
        }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+                                          }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+                                            h2{font-size:3.5rem;}
+                                           .h3_skills{font-size:2rem;}
+                                           .top_container{
+                                                          height: 73rem;
+                                                          width: 55rem;
+                                                          }
+                                           .top_container2{width:55rem;}
+                                           .top_container3{width:55rem;}
+                                           .t_h1{
+                                                font-size:6rem;
+                                                left:13rem;
+                                                top:12rem;
+                                                 }
+                                           .t_lh2{
+                                                  font-size:3.75rem;
+                                                  left:15rem;
+                                                  top:19rem;
+                                                  }
+                                           .lake{
+                                                 height: 32rem; 
+                                                 width: 55rem;
+                                                 }
+                                           .comp2{
+                                                  height:13rem;
+                                                  width:13rem;
+                                                  left:26rem;
+                                                  }
+                                           .esp{
+                                                 width : 8rem;
+                                                 height: 8rem;
+                                                 left: 17rem;
+                                                }
+                                           .top_cloud{
+                                                       width: 11rem;
+                                                       height: 10rem;
+                                                       right: 3rem;
+                                                       top: 2rem;
+                                                       }
+                                            .bottom_cloud{
+                                                         width: 11rem;
+                                                         height: 10rem;
+                                                         left:3rem;
+                                                         bottom: 35rem;
+                                                         }
+                                            .mid_container{width:55rem;}
+                                            .profile{height:36rem;}
+                                            .profile-text1{font-size:4rem;}
+                                            .profile-text2{font-size:1.6rem;}           
+                                            .manager{
+                                                     width:8rem;
+                                                     height:8rem;     
+                                                     left:1.5rem;
+                                                    }
+                                            .comp{
+                                                  width:8rem;
+                                                  height:8rem;        
+                                                  right:4rem;
+                                                 }
+                                            
+                                            .skills{font-size:1.4rem;}
+                                            .skill1A{
+                                                     height:8rem;
+                                                     width:8rem;
+                                                    }
+                                            .skill1B{
+                                                     width:33rem;
+                                                    }
+                                            .skill2A{
+                                                     width:33rem;
+                                                     }      
+                                            .skill2B{
+                                                     right:2rem;
+                                                    }     
+                                            .bottom_container{width:55rem;}
+                                             }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {   }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+                                            h2{font-size:2.5rem;} 
+                                            .h3_skills{font-size:1.6rem;}
+                                            .top_container{
+                                                          height:41rem;
+                                                          width:45rem;
+                                                          }
+                                            .top_container2{width:45rem;}
+                                            .top_container3{width:45rem;}                                              
+                                            .t_h1{
+                                                font-size:4rem;
+                                                left:13rem;
+                                                top:5rem;
+                                                  }
+                                            .t_lh2{
+                                                  font-size:2.3rem;
+                                                  left:15rem;
+                                                  top:11rem;
+                                                  }
+                                            .lake{
+                                                 height:15.625rem;
+                                                 width:45rem;
+                                                 }
+                                            .comp2{
+                                                  height:10rem;
+                                                  width:10rem;
+                                                  left:20rem;
+                                                  }
+                                            .esp{
+                                                  width : 5rem;
+                                                  height: 5rem;
+                                                  left: 15rem;
+                                                }
+                                            .top_cloud{
+                                                       width: 7rem;
+                                                       height: 6rem;
+                                                       right:2rem;
+                                                       top:0rem;
+                                                      }
+                                            .bottom_cloud{
+                                                         width: 7rem;
+                                                         height: 6rem;
+                                                         left:2.5rem;
+                                                         bottom: 15.625rem;
+                                                         }
+                      
+                                            .profile{height:25rem;}
+                                            .profile-text1{font-size:3rem;}
+                                            .profile-text2{font-size:1rem;}
+                                            .mid_container{width:45rem;}
+                                            .manager{
+                                                     width:6.7rem;
+                                                     height:6.7rem;     
+                                                     left:0rem;
+                                                    }
+                                            .comp{
+                                                  width:6.7rem;
+                                                  height:6.7rem;                                                      
+                                                  right:0rem;
+                                                 }
+                                            .skills{font-size:1rem;}
+                                            .skill1A{
+                                                     height:8rem;
+                                                     width:8rem;
+                                                     }      
+                                            .skill1B{
+                                                     width:28rem;
+                                                    }
+                                            .skill2A{
+                                                     width:28rem;
+                                                     }      
+                                            .skill2B{
+                                                     right:0rem;
+                                                    }
+                                            .bottom_container{width:45rem;}
+                                            }
+                                                   
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {   }
