@@ -302,7 +302,7 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                             h2{font-size:3.5rem;}
-                                           .h3_skills{2rem;}
+                                           .h3_skills{font-size:2rem;}
                                            .top_container{
                                                           height: 73rem;
                                                           width: 55rem;
