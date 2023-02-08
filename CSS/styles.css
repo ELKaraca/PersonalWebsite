@@ -347,8 +347,8 @@ hr{
                                             .profile-text2{font-size:1.6rem;}           
                                             .skills{font-size:1.5rem;}
                                             .skill1A{
-                                                     height:10rem;
-                                                     width:10rem;
+                                                     height:12rem;
+                                                     width:12rem;
                                                     }
                                             .bottom_container{width:55rem;}
                                              }
@@ -359,7 +359,7 @@ hr{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
                                             h2{font-size:2.5rem;} 
-                                            .h3_skills{font_size:1rem;}
+                                            .h3_skills{font-size:1rem;}
                                             .top_container{
                                                           height:41rem;
                                                           width:45rem;
