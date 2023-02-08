@@ -306,13 +306,13 @@ hr{
                                                           width: 55rem;
                                                           }
                                            .t_h1{
-                                                font-size:5rem;
+                                                font-size:6rem;
                                                 left:14rem;
                                                 top:10rem;
                                                 
                                                  }
                                            .t_lh2{
-                                                  font-size:3.3rem;
+                                                  font-size:4.3rem;
                                                   left:14.5rem;
                                                   top:17rem;
                                                   }
@@ -331,16 +331,16 @@ hr{
                                                  left: 17rem;
                                                 }
                                            .top_cloud{
-                                                       width: 10rem;
-                                                       height: 9rem;
+                                                       width: 11rem;
+                                                       height: 10rem;
                                                        right: 6rem;
                                                        top: 2rem;
                                                        }
                                             .bottom_cloud{
-                                                         width: 9rem;
-                                                         height: 8rem;
+                                                         width: 10rem;
+                                                         height: 9rem;
                                                          left:3rem;
-                                                         bottom: 40rem;
+                                                         bottom: 38rem;
                                                          }
                                             .mid_container{width:55rem;}
                                             .profile{height:35rem;}
