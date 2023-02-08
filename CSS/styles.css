@@ -350,6 +350,10 @@ hr{
                                                      width:8rem;
                                                      height:8rem;     
                                                     }
+                                            .comp{
+                                                  width:8rem;
+                                                  height:8rem;                                                      
+                                                 }
                                             
                                             .skills{font-size:1.4rem;}
                                             .skill1A{
@@ -359,6 +363,14 @@ hr{
                                             .skill1B{
                                                      width:33rem;
                                                     }
+                                            .skill2A{
+                                                     width:33rem;
+                                                     }      
+                                            .skill2B{
+                                                     height:8rem;
+                                                     width:8rem;
+                                                    }
+     
                                             .bottom_container{width:55rem;}
                                              }
 
@@ -418,6 +430,10 @@ hr{
                                                      width:6.7rem;
                                                      height:6.7rem;     
                                                     }
+                                            .comp{
+                                                  width:6.7rem;
+                                                  height:6.7rem;                                                      
+                                                 }
                                             .skills{font-size:1rem;}
                                             .skill1A{
                                                      height:8rem;
