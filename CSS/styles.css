@@ -146,14 +146,12 @@ hr{
          position: relative;
          display:inline-block;
          padding-top:1rem;
-
         }
 .skill1B{
         width:28rem;
         position: relative;
         display:inline-block;
         text-align:left;
-
         }
 .skill2A{
         width:28rem;
@@ -348,6 +346,10 @@ hr{
                                             .profile-text1{font-size:4rem;}
                                             .profile-text2{font-size:1.6rem;}           
                                             .skills{font-size:1.5rem;}
+                                            .skill1A{
+                                                     height:10rem;
+                                                     width:10rem;
+                                                    }
                                             .bottom_container{width:55rem;}
                                              }
 
@@ -404,6 +406,10 @@ hr{
                                             .profile-text2{font-size:1rem;}
                                             .mid_container{width:45rem;}
                                             .skills{font-size:1rem;}
+                                            .skill1A{
+                                                     height:8rem;
+                                                     width:8rem;
+                                                     }
                                             .bottom_container{width:45rem;}
                                             }
                                                    
