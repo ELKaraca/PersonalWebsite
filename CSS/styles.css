@@ -349,10 +349,12 @@ hr{
                                             .manager{
                                                      width:8rem;
                                                      height:8rem;     
+                                                     left:1rem;
                                                     }
                                             .comp{
                                                   width:8rem;
-                                                  height:8rem;                                                      
+                                                  height:8rem;        
+                                                  right:1rem;
                                                  }
                                             
                                             .skills{font-size:1.4rem;}
