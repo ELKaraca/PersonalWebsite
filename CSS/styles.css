@@ -109,7 +109,7 @@ hr{
               background-color: white;
               }
 .profile{
-         height:25rem;
+         height: 25rem;
          background-color: #BCEAD5;
          padding-top: 1.25rem;
          }
@@ -132,6 +132,8 @@ hr{
        padding-right:4rem;
        }
 .manager{
+         width:6.7rem;
+         height:6.7rem;
          background-color:#9ED5C5;
          position: relative;
          border:0.3125rem solid black;
@@ -181,7 +183,6 @@ hr{
 .h3_skills{
            padding:0rem;
            margin:0rem;
-
           }
 .comp{
        background-color:#9ED5C5;
@@ -345,10 +346,18 @@ hr{
                                             .profile{height:36rem;}
                                             .profile-text1{font-size:4rem;}
                                             .profile-text2{font-size:1.6rem;}           
+                                            .manager{
+                                                     width:7.7rem;
+                                                     height:7.7rem;     
+                                                    }
+                                            
                                             .skills{font-size:1.5rem;}
                                             .skill1A{
                                                      height:12rem;
                                                      width:12rem;
+                                                    }
+                                            .skill1B{
+                                                     width:30rem;
                                                     }
                                             .bottom_container{width:55rem;}
                                              }
@@ -359,7 +368,7 @@ hr{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
                                             h2{font-size:2.5rem;} 
-                                            .h3_skills{font-size:1rem;}
+                                            .h3_skills{font-size:1.6rem;}
                                             .top_container{
                                                           height:41rem;
                                                           width:45rem;
@@ -405,11 +414,18 @@ hr{
                                             .profile-text1{font-size:3rem;}
                                             .profile-text2{font-size:1rem;}
                                             .mid_container{width:45rem;}
+                                            .manager{
+                                                     width:6.7rem;
+                                                     height:6.7rem;     
+                                                    }
                                             .skills{font-size:1rem;}
                                             .skill1A{
                                                      height:8rem;
                                                      width:8rem;
-                                                     }
+                                                     }      
+                                            .skill1B{
+                                                     width:28rem;
+                                                    }
                                             .bottom_container{width:45rem;}
                                             }
                                                    
