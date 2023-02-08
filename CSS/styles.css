@@ -349,12 +349,12 @@ hr{
                                             .manager{
                                                      width:8rem;
                                                      height:8rem;     
-                                                     left:1rem;
+                                                     left:2rem;
                                                     }
                                             .comp{
                                                   width:8rem;
                                                   height:8rem;        
-                                                  right:1rem;
+                                                  right:2rem;
                                                  }
                                             
                                             .skills{font-size:1.4rem;}
@@ -431,10 +431,12 @@ hr{
                                             .manager{
                                                      width:6.7rem;
                                                      height:6.7rem;     
+                                                     left:0rem;
                                                     }
                                             .comp{
                                                   width:6.7rem;
                                                   height:6.7rem;                                                      
+                                                  left:0rem;
                                                  }
                                             .skills{font-size:1rem;}
                                             .skill1A{
