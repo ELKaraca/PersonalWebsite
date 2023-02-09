@@ -551,8 +551,10 @@ hr{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
                                                  }
-                                             .empty_line{height:5rem;
-                                                         padding-top:5rem;}
+                                             .empty_line{
+                                                         height:5rem;
+                                                         padding-bottom:5rem;
+                                                        }
                                              .bottom_container{width:55rem;}
                                              }
 
