@@ -473,10 +473,10 @@ hr{
                                             .h3_skills{font-size:2rem;}
                                             .top_container{
                                                           height: 73rem;
-                                                          width: 55rem;
+                                                          width: 57rem;
                                                           }
-                                            .top_container2{width:55rem;}
-                                            .top_container3{width:55rem;}
+                                            .top_container2{width:57rem;}
+                                            .top_container3{width:57rem;}
                                             .t_h1{
                                                 font-size:6rem;
                                                 left:13rem;
@@ -513,7 +513,7 @@ hr{
                                                          left:3rem;
                                                          bottom: 35rem;
                                                          }
-                                            .mid_container{width:55rem;}
+                                            .mid_container{width:57rem;}
                                             .profile{height:36rem;}
                                             .profile-text1{font-size:4rem;}
                                             .profile-text2{font-size:1.5rem;}           
@@ -530,7 +530,7 @@ hr{
                                             .skills{
                                                      padding-left:2rem;
                                                      padding-right:2rem;
-                                                     font-size:1.5rem;}
+                                                     font-size:1.6rem;}
                                             .skill1A{
                                                      height:8rem;
                                                      width:8rem;
@@ -558,7 +558,7 @@ hr{
                                              .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
-                                             .bottom_container{width:55rem;}
+                                             .bottom_container{width:57rem;}
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -570,7 +570,7 @@ hr{
                                             .h3_skills{font-size:1.6rem;}
                                             .top_container{
                                                           height:41rem;
-                                                          width:45rem;
+                                                          width:47rem;
                                                           }
                                             .top_container2{width:45rem;}
                                             .top_container3{width:45rem;}
