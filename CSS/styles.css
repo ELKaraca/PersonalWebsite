@@ -546,15 +546,12 @@ hr{
                                             .skill2B{
                                                      right:2rem;
                                                     }     
-                                            .school{width:38rem;}
-                                            .sb_1{
+                                             .school{width:38rem;}
+                                             .sb_1{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
                                                  }
-                                             .empty_line{
-                                                         height:5rem;
-                                                         padding-bottom:5rem;
-                                                        }
+                                             .allskills{height:20rem;}
                                              .bottom_container{width:55rem;}
                                              }
 
@@ -638,8 +635,7 @@ hr{
                                                     }
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
-                                            .empty_line{height:0rem;
-                                                        padding:0rem;}
+                                            .allskills{height:auto;}
                                             .bottom_container{width:45rem;}
                                             }
                                                    
