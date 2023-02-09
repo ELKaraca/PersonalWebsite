@@ -169,7 +169,6 @@ hr{
          display:inline-block;
          padding-top:1rem;
         }
-
 .dots{
       color: grey;
       width: 9%;
@@ -239,7 +238,8 @@ hr{
    display: inline-block;
    cursor: pointer;
    text-align: center;
-}
+              }
+
 .BUTTON_ZHS:hover {
    border: solid #000000 0.0625rem;
    background: #1E62D0;
@@ -531,7 +531,6 @@ hr{
                                                   height:8rem;        
                                                   right:4rem;
                                                  }
-                                            
                                             .skills{font-size:1.4rem;}
                                             .skill1A{
                                                      height:8rem;
@@ -554,6 +553,7 @@ hr{
                                              .all_skills{height:85rem;}
                                              .h_text{
                                                    font-size:1.7rem;
+                                                   width:40rem;
                                                      }                                    
                                              .bottom_container{width:55rem;}
                                              }
@@ -641,7 +641,6 @@ hr{
                                             .all_skills{height:auto;}
                                             .h_text{
                                                   font-size:1.2rem;
-                                                  width:40rem;
                                                    }               
                                             .bottom_container{width:45rem;}
                                             }
