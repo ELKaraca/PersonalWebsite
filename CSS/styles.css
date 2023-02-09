@@ -527,7 +527,10 @@ hr{
                                                   height:8rem;        
                                                   right:4rem;
                                                  }
-                                            .skills{font-size:1.4rem;}
+                                            .skills{
+                                                     padding-left:2rem;
+                                                     padding-right:2rem;
+                                                     font-size:1.5rem;}
                                             .skill1A{
                                                      height:8rem;
                                                      width:8rem;
@@ -622,7 +625,11 @@ hr{
                                                   height:6.7rem;                                                      
                                                   right:0rem;
                                                  }
-                                            .skills{font-size:1rem;}
+                                            .skills{
+                                                    padding-left:4rem;
+                                                    padding-right:4rem;       
+                                                    font-size:1rem;
+                                                   }
                                             .skill1A{
                                                      height:8rem;
                                                      width:8rem;
