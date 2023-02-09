@@ -291,9 +291,6 @@ hr{
    border-radius: 1.25rem;
    text-decoration: none;
 }
-
-
-
 .top_container2{
                 height:5rem;
                 width: 45rem; /*38.75rem;*/
@@ -477,38 +474,38 @@ hr{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
                                             h2{font-size:3.5rem;}
-                                           .h3_skills{font-size:2rem;}
-                                           .top_container{
+                                            .h3_skills{font-size:2rem;}
+                                            .top_container{
                                                           height: 73rem;
                                                           width: 55rem;
                                                           }
-                                           .top_container2{width:55rem;}
-                                           .top_container3{width:55rem;}
-                                           .t_h1{
+                                            .top_container2{width:55rem;}
+                                            .top_container3{width:55rem;}
+                                            .t_h1{
                                                 font-size:6rem;
                                                 left:13rem;
                                                 top:12rem;
                                                  }
-                                           .t_lh2{
+                                            .t_lh2{
                                                   font-size:3.75rem;
                                                   left:15rem;
                                                   top:19rem;
                                                   }
-                                           .lake{
+                                            .lake{
                                                  height: 32rem; 
                                                  width: 55rem;
                                                  }
-                                           .comp2{
+                                            .comp2{
                                                   height:13rem;
                                                   width:13rem;
                                                   left:26rem;
                                                   }
-                                           .esp{
+                                            .esp{
                                                  width : 8rem;
                                                  height: 8rem;
                                                  left: 17rem;
                                                 }
-                                           .top_cloud{
+                                            .top_cloud{
                                                        width: 11rem;
                                                        height: 10rem;
                                                        right: 3rem;
@@ -550,7 +547,7 @@ hr{
                                                      right:2rem;
                                                     }     
                                             .school{width:38rem;}
-                                            .sb_1{padding:10rem;}
+                                            .sb_1{padding:8rem;}
                                             .bottom_container{width:55rem;}
                                              }
 
