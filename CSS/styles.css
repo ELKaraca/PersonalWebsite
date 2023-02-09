@@ -14,14 +14,12 @@ h2{
    margin:0;
    padding-top:1rem;
   }
-
 h3{
   color:#004F8B;
   font-family: 'Martel Sans', sans-serif;
   font-size:1.5rem;
   margin-bottom : 0rem;
   }
-
 hr{
   color: white;
   margin-block-start: 0;
@@ -239,7 +237,6 @@ hr{
    cursor: pointer;
    text-align: center;
               }
-
 .BUTTON_ZHS:hover {
    border: solid #000000 0.0625rem;
    background: #1E62D0;
@@ -353,7 +350,6 @@ hr{
       position:relative;
       display:inline-block;
       align:center;
-
       }
 .skill_list{
            position:relative;
@@ -520,7 +516,7 @@ hr{
                                             .mid_container{width:55rem;}
                                             .profile{height:36rem;}
                                             .profile-text1{font-size:4rem;}
-                                            .profile-text2{font-size:1.6rem;}           
+                                            .profile-text2{font-size:1.5rem;}           
                                             .manager{
                                                      width:8rem;
                                                      height:8rem;     
@@ -555,6 +551,8 @@ hr{
                                                    font-size:1.7rem;
                                                    width:40rem;
                                                      }                                    
+                                             .contact_head{}
+                                             .contact_text{font-size:1.2rem;}
                                              .bottom_container{width:55rem;}
                                              }
 
@@ -642,7 +640,9 @@ hr{
                                             .h_text{
                                                   font-size:1.2rem;
                                                   width:30rem;
-                                                   }               
+                                                   }
+                                            .contact_head{}
+                                            .contact_text{font-text:1.3rem;}
                                             .bottom_container{width:45rem;}
                                             }
                                                    
