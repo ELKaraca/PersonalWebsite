@@ -551,7 +551,8 @@ hr{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
                                                  }
-                                            .bottom_container{width:55rem;}
+                                             .empty_line{height:5rem;}
+                                             .bottom_container{width:55rem;}
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -634,6 +635,7 @@ hr{
                                                     }
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
+                                            .empty_line{height:0rem;}
                                             .bottom_container{width:45rem;}
                                             }
                                                    
