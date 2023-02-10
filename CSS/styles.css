@@ -552,7 +552,8 @@ hr{
                                                  padding-right:5rem;
                                                  }
                                              .all_skills{height:85rem;}
-                                             .logo{
+                                             .skill_list{width:30rem;}                                            
+                                              .logo{
                                                   height:4rem;
                                                   width:4rem;
                                                   }
@@ -570,8 +571,7 @@ hr{
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
                                              .bottom_container{width:57rem;}
-                                             
-                                              .footer-link{width:4rem;
+                                             .footer-link{width:4rem;
                                                            height:4rem;
                                                            }
                                              }
@@ -660,6 +660,7 @@ hr{
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
                                             .all_skills{height:auto;}
+                                            .skill_list{width:26rem;}
                                             .logo{
                                                   height:3rem;
                                                   weight:3rem;
@@ -679,8 +680,8 @@ hr{
                                                           font-family:'Sriracha', sans-serif;
                                                           }
                                             .bottom_container{width:45rem;}
-                                            .footer-link{width:2rem;
-                                                         height:2rem;
+                                            .footer-link{width:2.5rem;
+                                                         height:2.5rem;
                                             }
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
