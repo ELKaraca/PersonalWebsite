@@ -558,6 +558,10 @@ hr{
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
                                              .bottom_container{width:57rem;}
+                                             
+                                              .footer-link{width:10rem;
+                                                           height:10rem;
+                                                           }
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -653,6 +657,8 @@ hr{
                                                           font-family:'Sriracha', sans-serif;
                                                           }
                                             .bottom_container{width:45rem;}
+                                            .footer-link{width:5rem;
+                                                         height:5rem;
                                             }
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
