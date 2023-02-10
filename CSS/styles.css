@@ -552,7 +552,7 @@ hr{
                                                  padding-right:5rem;
                                                  }
                                              .all_skills{height:85rem;}
-                                             .skill_list{width:34rem;}                                            
+                                             .skill_list{width:38rem;}                                            
                                               .logo{
                                                   height:4rem;
                                                   width:4rem;
@@ -670,7 +670,7 @@ hr{
                                                      }
                                             .name{width:10rem;}
                                             .name1{}
-                                            .h3_text{font-size:2rem;}
+                                            .h3_text{font-size:2.5rem;}
                                             .h_text{
                                                   width:30rem;
                                                    }
@@ -680,8 +680,8 @@ hr{
                                                           font-family:'Sriracha', sans-serif;
                                                           }
                                             .bottom_container{width:45rem;}
-                                            .footer-link{width:2.5rem;
-                                                         height:2.5rem;
+                                            .footer-link{width:3rem;
+                                                         height:3rem;
                                             }
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
