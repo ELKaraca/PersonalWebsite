@@ -357,6 +357,10 @@ hr{
            padding:0rem;
            padding-left:1rem;
            }
+.h3_text{text-size:3rem;
+         margin:0;
+         padding:0;
+         }
 .S_name{
        display:inline-block;
        }
@@ -550,14 +554,13 @@ hr{
                                              .all_skills{height:85rem;}
                                              .logo{
                                                   height:4rem;
-                                                  weight:4rem;
+                                                  width:4rem;
                                                   }
                                              .p_logo{height:4rem;
-                                                     weight:4rem;
+                                                     width:4rem;
                                                      }
-                                             .name{font-size:3rem;
-                                                   width:12rem;}
-                                             .name1{font-size:3rem;}
+                                             .name{width:12rem;}
+                                             .h3_text{font-size:3rem;}
                                              .h_text{
                                                     font-size:1.7rem;
                                                     width:40rem;
@@ -568,8 +571,8 @@ hr{
                                                           }
                                              .bottom_container{width:57rem;}
                                              
-                                              .footer-link{width:7rem;
-                                                           height:7rem;
+                                              .footer-link{width:4rem;
+                                                           height:4rem;
                                                            }
                                              }
 
@@ -657,27 +660,27 @@ hr{
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
                                             .all_skills{height:auto;}
-                                             .logo{
+                                            .logo{
                                                   height:3rem;
                                                   weight:3rem;
                                                   }
-                                             .p_logo{height:3rem;
+                                            .p_logo{height:3rem;
                                                      weight:3rem;
                                                      }
-                                             .name{font-size:1rem;
-                                                    width:10rem;}
-                                             .name1{font-size:1rem;}                                            
+                                            .name{width:10rem;}
+                                            .name1{}
+                                            .h3_text{font-size:1rem;}
                                             .h_text{
-                                                  font-size:1.2rem;
                                                   width:30rem;
                                                    }
+                                            
                                             .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
                                                           }
                                             .bottom_container{width:45rem;}
-                                            .footer-link{width:5rem;
-                                                         height:5rem;
+                                            .footer-link{width:2rem;
+                                                         height:2rem;
                                             }
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
