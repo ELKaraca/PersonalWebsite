@@ -349,7 +349,6 @@ hr{
       width:25rem;
       position:relative;
       display:inline-block;
-      align:center;
       }
 .skill_list{
            position:relative;
@@ -532,7 +531,7 @@ hr{
                                                      padding-right:2rem;
                                                      font-size:1.6rem;}
                                             .skill1A{
-                                                    left:1.7rem;
+                                                    left:1.5rem;
                                                     }
                                             .skill1B{
                                                      width:35.5rem;
@@ -549,18 +548,28 @@ hr{
                                                  padding-right:5rem;
                                                  }
                                              .all_skills{height:85rem;}
+                                             .logo{
+                                                  height:4rem;
+                                                  weight:4rem;
+                                                  }
+                                             .p_logo{height:4rem;
+                                                     weight:4rem;
+                                                     }
+                                             .name{font-size:3rem;
+                                                   width:12rem;}
+                                             .name1{font-size:3rem;}
                                              .h_text{
-                                                   font-size:1.7rem;
-                                                   width:40rem;
-                                                     }                                    
+                                                    font-size:1.7rem;
+                                                    width:40rem;
+                                                    }
                                              .contact_head{}
                                              .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
                                              .bottom_container{width:57rem;}
                                              
-                                              .footer-link{width:10rem;
-                                                           height:10rem;
+                                              .footer-link{width:7rem;
+                                                           height:7rem;
                                                            }
                                              }
 
@@ -648,6 +657,16 @@ hr{
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
                                             .all_skills{height:auto;}
+                                             .logo{
+                                                  height:3rem;
+                                                  weight:3rem;
+                                                  }
+                                             .p_logo{height:3rem;
+                                                     weight:3rem;
+                                                     }
+                                             .name{font-size:1rem;
+                                                    width:10rem;}
+                                             .name1{font-size:1rem;}                                            
                                             .h_text{
                                                   font-size:1.2rem;
                                                   width:30rem;
