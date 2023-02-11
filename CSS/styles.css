@@ -551,6 +551,7 @@ hr{
                                              .sb_1{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
+                                                 width:45rem;
                                                  }
                                              .all_skills{height:85rem;}
                                              .skill_list{width:45rem;
@@ -662,7 +663,10 @@ hr{
                                                      right:0rem;
                                                     }
                                             .school{width:32rem;}
-                                            .sb_1{padding:0rem;}
+                                            .sb_1{
+                                                  padding:0rem;
+                                                  width:auto;
+                                                  }
                                             .all_skills{height:auto;}
                                             .skill_list{width:26rem;
                                                         padding-left:1rem;}
