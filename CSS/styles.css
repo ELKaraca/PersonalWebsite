@@ -533,7 +533,8 @@ hr{
                                             .skills{
                                                      padding-left:2rem;
                                                      padding-right:2rem;
-                                                     font-size:1.6rem;}
+                                                     font-size:1.6rem;
+                                                    }
                                             .skill1A{
                                                     left:1.5rem;
                                                     }
@@ -552,12 +553,15 @@ hr{
                                                  padding-right:5rem;
                                                  }
                                              .all_skills{height:85rem;}
-                                             .skill_list{width:45rem;}                                            
-                                              .logo{
+                                             .skill_list{width:45rem;
+                                                         padding-left:0;            
+                                                         }                                            
+                                             .logo{
                                                   height:4rem;
                                                   width:4rem;
                                                   }
-                                             .p_logo{height:4rem;
+                                             .p_logo{
+                                                     height:4rem;
                                                      width:4rem;
                                                      }
                                              .name{width:12rem;}
@@ -660,12 +664,14 @@ hr{
                                             .school{width:32rem;}
                                             .sb_1{padding:0rem;}
                                             .all_skills{height:auto;}
-                                            .skill_list{width:26rem;}
+                                            .skill_list{width:26rem;
+                                                        padding-left:1rem;}
                                             .logo{
                                                   height:3rem;
                                                   weight:3rem;
                                                   }
-                                            .p_logo{height:3rem;
+                                            .p_logo{ 
+                                                     height:3rem;
                                                      weight:3rem;
                                                      }
                                             .name{width:10rem;}
@@ -674,7 +680,6 @@ hr{
                                             .h_text{
                                                   width:30rem;
                                                    }
-                                            
                                             .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
