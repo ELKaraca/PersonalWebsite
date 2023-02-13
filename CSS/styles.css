@@ -556,6 +556,7 @@ hr{
                                              .skill_list{width:40rem;
                                                          padding-left:0;            
                                                          }                                            
+                                             .h1_sk{font-size:4rem;}     
                                              .logo{
                                                   height:4rem;
                                                   width:4rem;
@@ -567,12 +568,12 @@ hr{
                                              .name{width:12rem;}
                                              .h3_text{font-size:2.8rem;}
                                              .name{width: 20rem;
-                                                   botton:1rem;}
+                                                   botton:1rem;
+                                                   padding-top:1rem;}
                                              .h_text{
                                                     font-size:1.7rem;
                                                     width:40rem;
                                                     }
-                                             .h1_sk{font-size:4rem;}     
                                              .contact_head{}
                                              .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;
@@ -671,6 +672,7 @@ hr{
                                                   }
                                             .skill_list{width:26rem;
                                                         padding-left:1rem;}
+                                            .h1_sk{font-size:3.5rem;}
                                             .logo{
                                                   height:3rem;
                                                   weight:3rem;
@@ -681,12 +683,12 @@ hr{
                                                      }
                                             .name1{}
                                             .name{width:10rem;
-                                                  botton:0rem;}
-                                            .h3_text{font-size:1.6rem;}
+                                                  botton:0rem;
+                                                  padding-top:1rem;}
+                                            .h3_text{font-size:1.5rem;}
                                             .h_text{
                                                   width:30rem;
                                                    }
-                                            .h1_sk{font-size:3.5rem;}
                                             .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
