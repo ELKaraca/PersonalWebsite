@@ -582,7 +582,7 @@ hr{
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
                                              .top_container3{width:57rem;
-                                                             height:10rem;}
+                                                             height:12rem;}
                                              .h3_edu{font-size:2rem;}
                                              .h3_mid{height:3rem;
                                                      width:5rem;
@@ -596,7 +596,7 @@ hr{
                                                       height:5rem;
                                                      }
                                              .bottom_container{width:57rem;}
-                                             .footer-link{width:4rem;
+                                             .footer-link{ width:4rem;
                                                            height:4rem;
                                                            }
                                              }
@@ -616,9 +616,6 @@ hr{
                                                             height:7rem;
                                                             padding-top:1rem;
                                                             }
-
-                                            .top_container3{width:45rem;
-                                                            height:8rem;}
                                             .t_h1{
                                                 font-size:4rem;
                                                 left:13rem;
@@ -720,6 +717,8 @@ hr{
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
                                                           }
+                                            .top_container3{width:45rem;
+                                                            height:8rem;}
                                             .h3_edu{font-size:1rem;}
                                             .h3_mid{height:2.3rem;
                                                     width:5rem;
@@ -727,15 +726,15 @@ hr{
                                                     border:0.2rem solid;
                                                     border-radius: 2rem;
                                                     }
-                                            .lines{font-size:1.5rem;}
+                                            .lines{font-size:1rem;}
                                             .company{
-                                                      width:30rem;
-                                                      height:5rem;
+                                                     width:28rem;
+                                                     height:3rem;
                                                      }
                                             .bottom_container{width:45rem;}
                                             .footer-link{width:3rem;
                                                          height:3rem;
-                                            }
+                                                         }
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {   }
