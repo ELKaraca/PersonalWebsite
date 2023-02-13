@@ -582,7 +582,7 @@ hr{
                                                            font-family: 'Martel Sans', sans-serif;
                                                           }
                                              .top_container3{width:57rem;
-                                                             height:10rem}
+                                                             height:10rem;}
                                              .h3_edu{font-size:2rem;}
                                              .h3_mid{height:3rem;}
                                                     width:5rem;
@@ -616,7 +616,8 @@ hr{
                                                             padding-top:1rem;
                                                             }
 
-                                            .top_container3{width:45rem;}
+                                            .top_container3{width:45rem;
+                                                            height:8rem;}
                                             .t_h1{
                                                 font-size:4rem;
                                                 left:13rem;
@@ -721,9 +722,9 @@ hr{
                                             .h3_edu{font-size:1rem;}
                                             .h3_mid{height:2.3rem;
                                                     width:5rem;
-                                                    border-width:2rem;
-                                                    border:0.2rem;
-                                                    border-radius: 1.75rem;
+                                                    border-width:2.5rem;
+                                                    border:0.2rem solid;
+                                                    border-radius: 2rem;
                                                     }
                                             .lines{font-size:1.5rem;}
                                             .company{
