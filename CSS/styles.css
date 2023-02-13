@@ -554,7 +554,7 @@ hr{
                                                  width:45rem;
                                                  }
                                              .all_skills{height:85rem;}
-                                             .skill_list{width:45rem;
+                                             .skill_list{width:40rem;
                                                          padding-left:0;            
                                                          }                                            
                                              .logo{
@@ -567,6 +567,7 @@ hr{
                                                      }
                                              .name{width:12rem;}
                                              .h3_text{font-size:2.8rem;}
+                                             .name{width: 15rem;}
                                              .h_text{
                                                     font-size:1.7rem;
                                                     width:40rem;
@@ -680,7 +681,8 @@ hr{
                                                      }
                                             .name{width:10rem;}
                                             .name1{}
-                                            .h3_text{font-size:1rem;}
+                                            .name{width: 10rem;}
+                                            .h3_text{font-size:1.5rem;}
                                             .h_text{
                                                   width:30rem;
                                                    }
