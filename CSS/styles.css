@@ -597,11 +597,11 @@ hr{
                                             .top_container{
                                                           height:41rem;
                                                           width:45rem;
-                                                          padding-top:1rem;
                                                           }
                                             .top_container2{width:45rem;
                                                             height:7rem;
-                                                           }
+                                                            padding-top:1rem;
+                                                            }
 
                                             .top_container3{width:45rem;}
                                             .t_h1{
