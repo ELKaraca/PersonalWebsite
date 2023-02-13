@@ -572,6 +572,7 @@ hr{
                                                     font-size:1.7rem;
                                                     width:40rem;
                                                     }
+                                             .h1_sk{font-size:4rem;}     
                                              .contact_head{}
                                              .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;
@@ -680,11 +681,12 @@ hr{
                                                      }
                                             .name1{}
                                             .name{width:10rem;
-                                                  botton:1rem;}
-                                            .h3_text{font-size:1.7rem;}
+                                                  botton:0rem;}
+                                            .h3_text{font-size:1.6rem;}
                                             .h_text{
                                                   width:30rem;
                                                    }
+                                            .h1_sk{font-size:3.5rem;}
                                             .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
