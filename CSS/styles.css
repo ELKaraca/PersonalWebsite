@@ -431,8 +431,8 @@ hr{
              padding-left:4rem;
              padding-right:4rem;
             }
-.h3_edu{margin:0;
-        padding:0;}
+.h3_edu{margin:0rem;
+        padding:0rem;}
 .hobby{
        position:relative;
        display: inline-block;
@@ -584,11 +584,12 @@ hr{
                                              .top_container3{width:57rem;
                                                              height:10rem;}
                                              .h3_edu{font-size:2rem;}
-                                             .h3_mid{height:3rem;}
-                                                    width:5rem;
-                                                    border-width:2rem;
-                                                    border:0.2rem;
-                                                    border-radius: 1.75rem;
+                                             .h3_mid{height:3rem;
+                                                     width:5rem;
+                                                     border-width:2rem;
+                                                     border:0.2rem;
+                                                     border-radius: 1.75rem;
+                                                     }
                                              .lines{font-size:2rem;}
                                              .company{
                                                       width:30rem;
