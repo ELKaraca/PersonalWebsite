@@ -472,7 +472,7 @@ hr{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-                                            h2{font-size:3.5rem;}
+                                             h2{font-size:3.5rem;}
                                             .h3_skills{font-size:2rem;}
                                             .top_container{
                                                           height: 73rem;
@@ -556,7 +556,7 @@ hr{
                                              .skill_list{width:40rem;
                                                          padding-left:0;            
                                                          }                                            
-                                             .h1_sk{font-size:8rem;}     
+                                             .h1_sk{font-size:5rem;}     
                                              .logo{
                                                   height:4rem;
                                                   width:4rem;
