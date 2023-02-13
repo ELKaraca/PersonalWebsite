@@ -478,7 +478,9 @@ hr{
                                                           height: 73rem;
                                                           width: 57rem;
                                                           }
-                                            .top_container2{width:57rem;}
+                                            .top_container2{width:57rem;
+                                                            height:8rem;
+                                                           }
                                             .top_container3{width:57rem;}
                                             .t_h1{
                                                 font-size:6rem;
@@ -596,6 +598,9 @@ hr{
                                                           width:45rem;
                                                           }
                                             .top_container2{width:45rem;}
+                                                            height:7rem;
+                                                           }
+
                                             .top_container3{width:45rem;}
                                             .t_h1{
                                                 font-size:4rem;
