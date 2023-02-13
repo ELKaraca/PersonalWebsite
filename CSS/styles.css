@@ -553,7 +553,6 @@ hr{
                                                  padding-right:5rem;
                                                  width:45rem;
                                                  }
-                                             .all_skills{height:85rem;}
                                              .skill_list{width:40rem;
                                                          padding-left:0;            
                                                          }                                            
@@ -567,7 +566,8 @@ hr{
                                                      }
                                              .name{width:12rem;}
                                              .h3_text{font-size:2.8rem;}
-                                             .name{width: 20rem;}
+                                             .name{width: 20rem;
+                                                   botton:1rem;}
                                              .h_text{
                                                     font-size:1.7rem;
                                                     width:40rem;
@@ -668,7 +668,6 @@ hr{
                                                   padding:0rem;
                                                   width:auto;
                                                   }
-                                            .all_skills{height:auto;}
                                             .skill_list{width:26rem;
                                                         padding-left:1rem;}
                                             .logo{
@@ -679,10 +678,10 @@ hr{
                                                      height:3rem;
                                                      weight:3rem;
                                                      }
-                                            .name{width:10rem;}
                                             .name1{}
-                                            .name{width: 10rem;}
-                                            .h3_text{font-size:1.8rem;}
+                                            .name{width:10rem;
+                                                  botton:1rem;}
+                                            .h3_text{font-size:1.7rem;}
                                             .h_text{
                                                   width:30rem;
                                                    }
