@@ -290,7 +290,7 @@ hr{
 }
 .top_container2{
                 height:5rem;
-                width: 45rem; /*38.75rem;*/
+                width: 45rem;
                 background-color: #9ED5C5;
                 position:relative;
                 margin:0rem;
@@ -480,6 +480,7 @@ hr{
                                                           }
                                             .top_container2{width:57rem;
                                                             height:8rem;
+                                                            padding-top:1.5rem;
                                                            }
                                             .top_container3{width:57rem;}
                                             .t_h1{
@@ -596,6 +597,7 @@ hr{
                                             .top_container{
                                                           height:41rem;
                                                           width:45rem;
+                                                          padding-top:1rem;
                                                           }
                                             .top_container2{width:45rem;
                                                             height:7rem;
