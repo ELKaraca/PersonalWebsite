@@ -583,13 +583,14 @@ hr{
                                                           }
                                              .top_container3{width:57rem;
                                                              height:12rem;}
-                                             .h3_edu{font-size:2rem;}
+                                             .h3_edu{font-size:3.5rem;}
                                              .h3_mid{height:3rem;
                                                      width:5rem;
                                                      border-width:2rem;
                                                      border:0.2rem;
                                                      border-radius: 1.75rem;
                                                      }
+                                             .school{width:38rem;}
                                              .lines{font-size:2rem;}
                                              .company{
                                                       width:30rem;
@@ -708,25 +709,21 @@ hr{
                                             .h_text{
                                                   width:30rem;
                                                    }
-                                            .company{
-                                                      width:28rem;
-                                                      height:3rem;
-                                                     }
-
                                             .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
                                                           }
                                             .top_container3{width:45rem;
                                                             height:8rem;}
-                                            .h3_edu{font-size:1rem;}
+                                            .h3_edu{font-size:2.5rem;}
                                             .h3_mid{height:2.3rem;
                                                     width:5rem;
                                                     border-width:2.5rem;
                                                     border:0.2rem solid;
                                                     border-radius: 2rem;
                                                     }
-                                            .lines{font-size:1rem;}
+                                            .school{width:32rem;}
+                                            .lines{font-size:0.9rem;}
                                             .company{
                                                      width:28rem;
                                                      height:3rem;
