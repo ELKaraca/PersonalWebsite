@@ -550,7 +550,9 @@ hr{
                                             .skill2B{
                                                      right:3.5rem;
                                                     }     
-                                             .school{width:38rem;}
+                                             .school{width:38rem;
+                                                     height:10rem;
+                                                                 }
                                              .sb_1{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
@@ -688,7 +690,9 @@ hr{
                                             .skill2B{
                                                      right:0rem;
                                                     }
-                                            .school{width:32rem;}
+                                            .school{width:32rem;
+                                                    height:8rem;          
+                                                   }
                                             .sb_1{
                                                   padding:0rem;
                                                   width:auto;
