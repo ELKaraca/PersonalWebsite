@@ -627,6 +627,10 @@ hr{
                                                     left:1rem;
                                                     }
 
+                                             .BUTTON_ZHS{font-size:2rem;}
+                                             .BUTTON_ZH{font-size:2rem;}
+                                             .BUTTON_Z{font-size:2rem;}
+
                                              .bottom_container{width:57rem;}
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
@@ -784,6 +788,9 @@ hr{
                                                     left:1rem;
                                                     }
                                             .bottom_container{width:45rem;}
+                                            .BUTTON_ZHS{font-size: 1.5625rem;}
+                                            .BUTTON_ZH{font-size: 1.5625rem;}
+                                            .BUTTON_Z{font-size:1.5625rem;}
                                             .footer-link{width:3rem;
                                                          height:3rem;}
 }
