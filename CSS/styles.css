@@ -588,16 +588,17 @@ hr{
                                              .h3_edu{font-size:2.7rem;}
                                              .h3_mid{height:3rem;
                                                      width:5rem;
+                                                     font-size:1.5rem;
                                                      border-width:2rem;
                                                      border:0.2rem solid #004f8b;
                                                      border-radius: 1.75rem;
                                                      }
                                              .lines{font-size:1.7rem;}
                                              .education_b{
-                                                         height:32rem;
+                                                         height:40rem;
                                                          }
                                              .company{
-                                                      width:30rem;
+                                                      width:40rem;
                                                       height:5rem;
                                                       border-width:2.5rem;
                                                       border:0.2rem solid #004f8b;
@@ -725,7 +726,8 @@ hr{
                                             .top_container3{width:45rem;
                                                             height:8rem;}
                                             .h3_edu{font-size:2.1rem;}
-                                            .h3_mid{height:2.3rem;
+                                            .h3_mid{font-size:1.5rem;
+                                                    height:2.3rem;
                                                     width:5rem;
                                                     border-width:2.5rem;
                                                     border:0.2rem solid #004f8b;
