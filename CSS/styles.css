@@ -595,6 +595,7 @@ hr{
                                                          height:43rem;
                                                          }
                                              .company{
+                                                      padding-bottom:0.2rem;
                                                       width:50rem;
                                                       height:6rem;
                                                       border-width:2.5rem;
@@ -724,6 +725,7 @@ hr{
                                             .h3_mid{font-size:1.5rem;
                                                     height:2.3rem;
                                                     width:5rem;
+                                                    padding-bottom:0rem;
                                                     border-width:2.5rem;
                                                     border:0.2rem solid #004f8b;
                                                     border-radius: 2rem;
