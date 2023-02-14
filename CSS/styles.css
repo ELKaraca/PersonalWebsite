@@ -584,7 +584,8 @@ hr{
                                              .top_container3{width:57rem;
                                                              height:12rem;}
                                              .h3_edu{font-size:2.7rem;}
-                                             .h3_mid{height:3rem;
+                                             .h3_mid{padding-bottom:0.2;
+                                                     height:3rem;
                                                      width:8rem;
                                                      font-size:2.1rem;
                                                      border-width:2rem;
@@ -595,7 +596,6 @@ hr{
                                                          height:43rem;
                                                          }
                                              .company{
-                                                      padding-bottom:0.2rem;
                                                       width:50rem;
                                                       height:6rem;
                                                       border-width:2.5rem;
@@ -713,16 +713,14 @@ hr{
                                                   bottom:0rem;
                                                   padding-top:0.95rem;}
                                             .h3_text{font-size:1.5rem;}
-                                            .h_text{
-                                                  width:30rem;
-                                                   }
+                                            .h_text{width:30rem;}
                                             .contact_text{font-text:1.3rem;
-                                                          font-family:'Sriracha', sans-serif;
-                                                          }
+                                                          font-family:'Sriracha', sans-serif;}
                                             .top_container3{width:45rem;
                                                             height:8rem;}
                                             .h3_edu{font-size:2.1rem;}
-                                            .h3_mid{font-size:1.5rem;
+                                            .h3_mid{padding-bottom:0rem;
+                                                    font-size:1.5rem;
                                                     height:2.3rem;
                                                     width:5rem;
                                                     padding-bottom:0rem;
