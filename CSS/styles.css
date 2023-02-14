@@ -442,7 +442,7 @@ hr{
           margin: 0px;
           margin-top: 0px;
           margin-bottom: 0px;
-          padding:0 px;
+          padding:0px;
          }
 .h_logo{
        float:left;
@@ -595,7 +595,10 @@ hr{
                                              .company{
                                                       width:30rem;
                                                       height:5rem;
-                                                     }
+                                                      border-width:2.5rem;
+                                                      border:0.2rem solid;
+                                                      border-radius: 2rem;                                                    
+                                                      }
                                              .bottom_container{width:57rem;}
                                              .footer-link{ width:4rem;
                                                            height:4rem;
@@ -723,10 +726,13 @@ hr{
                                                     border-radius: 2rem;
                                                     }
                                             .school{width:34rem;}
-                                            .lines{font-size:1rem;}
+                                            .lines{font-size:1.1rem;}
                                             .company{
                                                      width:28rem;
                                                      height:3rem;
+                                                     border-width:2.5rem;
+                                                     border:0.2rem solid;
+                                                     border-radius: 2rem;
                                                      }
                                             .bottom_container{width:45rem;}
                                             .footer-link{width:3rem;
