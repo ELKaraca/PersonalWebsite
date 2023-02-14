@@ -438,7 +438,13 @@ hr{
        display: inline-block;
        padding-top:0.5rem;
       }
-.hobby_h3{
+.hobby_h3A{
+          margin: 0px;
+          margin-top: 0px;
+          margin-bottom: 0px;
+          padding:0px;
+         }
+.hobby_h3B{
           margin: 0px;
           margin-top: 0px;
           margin-bottom: 0px;
@@ -602,6 +608,25 @@ hr{
                                                       border:0.2rem solid #004f8b;
                                                       border-radius: 2rem;                                                    
                                                       }
+                                            .hobby{
+                                                   padding-top:0.5rem;
+                                                  }
+                                            .hobby_h3A{}
+                                            .hobby_h3B{}
+                                            .h_logo{}
+                                            .hobbies{
+                                                     padding-top:0.5rem;
+                                                     padding-left:4rem;
+                                                     padding-right:4rem;
+                                                     padding-bottom:0.5rem;
+                                                     }
+                                            .h_text{
+                                                    width:30rem;
+                                                    font-size:1.2rem;
+                                                    bottom:0.7rem;
+                                                    left:1rem;
+                                                    }
+
                                              .bottom_container{width:57rem;}
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
@@ -740,6 +765,25 @@ hr{
                                                      border:0.2rem solid #004f8b;
                                                      border-radius: 2rem;
                                                      }
+                                            .hobby{
+                                                   padding-top:0.5rem;
+                                                  }
+                                            .hobby_h3A{font-size:2.5rem;}
+                                            .hobby_h3B{font-size:2rem;}
+                                            .h_logo{}
+                                            .hobbies{
+                                                     padding-top:0.5rem;
+                                                     padding-left:4rem;
+                                                     padding-right:4rem;
+                                                     padding-bottom:0.5rem;
+                                                     }
+                                            .h_text{
+                                                    width:30rem;
+                                                    font-size:1.2rem;
+                                                    bottom:0.7rem;
+                                                    left:1rem;
+                                                    }
+
                                             .bottom_container{width:45rem;}
                                             .footer-link{width:3rem;
                                                          height:3rem;}
