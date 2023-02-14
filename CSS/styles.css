@@ -586,19 +586,19 @@ hr{
                                              .top_container3{width:57rem;
                                                              height:12rem;}
                                              .h3_edu{font-size:2.7rem;}
-                                             .h3_mid{height:3rem;
-                                                     width:5rem;
-                                                     font-size:1.5rem;
+                                             .h3_mid{height:5rem;
+                                                     width:10rem;
+                                                     font-size:2.5rem;
                                                      border-width:2rem;
                                                      border:0.2rem solid #004f8b;
                                                      border-radius: 1.75rem;
                                                      }
                                              .lines{font-size:1.7rem;}
                                              .education_b{
-                                                         height:40rem;
+                                                         height:45rem;
                                                          }
                                              .company{
-                                                      width:40rem;
+                                                      width:45rem;
                                                       height:5rem;
                                                       border-width:2.5rem;
                                                       border:0.2rem solid #004f8b;
@@ -606,8 +606,7 @@ hr{
                                                       }
                                              .bottom_container{width:57rem;}
                                              .footer-link{ width:4rem;
-                                                           height:4rem;
-                                                           }
+                                                           height:4rem;}
                                              }
 
 /* Medium devices (landscape tablets, 768px and up) */
