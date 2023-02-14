@@ -550,8 +550,8 @@ hr{
                                             .skill2B{
                                                      right:3.5rem;
                                                     }     
-                                             .school{width:38rem;
-                                                     height:10rem;
+                                             .school{width:48rem;
+                                                     height:12rem;
                                                                  }
                                              .sb_1{
                                                  padding-left:5rem;
@@ -592,8 +592,10 @@ hr{
                                                      border:0.2rem solid #004f8b;
                                                      border-radius: 1.75rem;
                                                      }
-                                             .school{width:48rem;}
                                              .lines{font-size:1.7rem;}
+                                             .education_b{
+                                                         height:32rem;
+                                                         }
                                              .company{
                                                       width:30rem;
                                                       height:5rem;
@@ -731,6 +733,9 @@ hr{
                                                     }
                                             .school{width:34rem;}
                                             .lines{font-size:1.1rem;}
+                                            .education_b{
+                                                         height:29rem;
+                                                         }
                                             .company{
                                                      width:28rem;
                                                      height:3rem;
