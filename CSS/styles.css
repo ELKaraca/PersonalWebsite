@@ -583,7 +583,7 @@ hr{
                                                    padding-top:0.9rem;}
                                              .h_text{
                                                     font-size:1.7rem;
-                                                    width:40rem;
+                                                    width:45rem;
                                                     }
                                              .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;}
@@ -611,8 +611,8 @@ hr{
                                             .hobby{
                                                    padding-top:0.5rem;
                                                   }
-                                            .hobby_h3A{font-size:2.3rem;}
-                                            .hobby_h3B{font-size:2rem;}
+                                            .hobby_h3A{font-size:2.4rem;}
+                                            .hobby_h3B{font-size:2.2rem;}
                                             .h_logo{}
                                             .hobbies{
                                                      padding-top:0.5rem;
@@ -621,7 +621,7 @@ hr{
                                                      padding-bottom:0.5rem;
                                                      }
                                             .h_text{
-                                                    width:30rem;
+                                                    width:40rem;
                                                     font-size:1.2rem;
                                                     bottom:0.7rem;
                                                     left:1rem;
@@ -783,7 +783,6 @@ hr{
                                                     bottom:0.7rem;
                                                     left:1rem;
                                                     }
-
                                             .bottom_container{width:45rem;}
                                             .footer-link{width:3rem;
                                                          height:3rem;}
