@@ -439,16 +439,16 @@ hr{
        padding-top:0.5rem;
       }
 .hobby_h3A{
-          margin: 0px;
-          margin-top: 0px;
-          margin-bottom: 0px;
-          padding:0px;
+          margin: 0rem;
+          margin-top: 0rem;
+          margin-bottom: 0rem;
+          padding:0rem;
          }
 .hobby_h3B{
-          margin: 0px;
-          margin-top: 0px;
-          margin-bottom: 0px;
-          padding:0px;
+          margin: 0rem;
+          margin-top: 0rem;
+          margin-bottom: 0rem;
+          padding:0rem;
          }
 .h_logo{
        float:left;
@@ -611,13 +611,13 @@ hr{
                                             .hobby{
                                                    padding-top:0.5rem;
                                                   }
-                                            .hobby_h3A{}
-                                            .hobby_h3B{}
+                                            .hobby_h3A{font-size:2rem;}
+                                            .hobby_h3B{font-size:1.5rem;}
                                             .h_logo{}
                                             .hobbies{
                                                      padding-top:0.5rem;
-                                                     padding-left:4rem;
-                                                     padding-right:4rem;
+                                                     padding-left:2rem;
+                                                     padding-right:2rem;
                                                      padding-bottom:0.5rem;
                                                      }
                                             .h_text{
