@@ -579,10 +579,8 @@ hr{
                                                     font-size:1.7rem;
                                                     width:40rem;
                                                     }
-                                             .contact_head{}
                                              .contact_text{font-size:1.3rem;
-                                                           font-family: 'Martel Sans', sans-serif;
-                                                          }
+                                                           font-family: 'Martel Sans', sans-serif;}
                                              .top_container3{width:57rem;
                                                              height:12rem;}
                                              .h3_edu{font-size:2.7rem;}
@@ -591,8 +589,7 @@ hr{
                                                      font-size:2.1rem;
                                                      border-width:2rem;
                                                      border:0.2rem solid #004f8b;
-                                                     border-radius: 1.75rem;
-                                                     }
+                                                     border-radius: 1.75rem;}
                                              .lines{font-size:1.7rem;}
                                              .education_b{
                                                          height:43rem;
@@ -718,7 +715,6 @@ hr{
                                             .h_text{
                                                   width:30rem;
                                                    }
-                                            .contact_head{}
                                             .contact_text{font-text:1.3rem;
                                                           font-family:'Sriracha', sans-serif;
                                                           }
@@ -746,8 +742,8 @@ hr{
                                                      }
                                             .bottom_container{width:45rem;}
                                             .footer-link{width:3rem;
-                                                         height:3rem;
-                                                         }
+                                                         height:3rem;}
+}
                                                    
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {   }
