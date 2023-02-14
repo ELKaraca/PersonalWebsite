@@ -34,7 +34,7 @@ hr{
        font-family:'Merriweather', serif;
        align-items: center;
        justify-content: center;
-       display: flex;.
+       display: flex;
        text-align: center;
       }
 .main{
@@ -709,7 +709,7 @@ hr{
                                                      }
                                             .name1{padding-top:0.9rem;}
                                             .name{width:10rem;
-                                                  botton:0rem;
+                                                  bottom:0rem;
                                                   padding-top:0.95rem;}
                                             .h3_text{font-size:1.5rem;}
                                             .h_text{
