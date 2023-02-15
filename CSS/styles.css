@@ -188,6 +188,13 @@ hr{
        -webkit-border-radius: 31.25rem;
        -moz-border-radius: 31.25rem;
       }
+.hobby_h3{
+          margin: 0rem;
+          margin-top: 0rem;
+          margin-bottom: 0rem;
+          padding:0rem;
+         }
+
 .contact_head{
              color:	#004f8b;
              margin-block-start: 0rem;
@@ -320,7 +327,7 @@ hr{
      text-align:center;
      position:relative;
      display:inline-block;
-     bottom: 1rem;
+     bottom: 0.3rem;
     }
 .name1{
       float:left;
@@ -628,7 +635,7 @@ hr{
                                                     }
 
                                              .BUTTON_ZHS{font-size:2.5rem;}
-                                             .BUTTON_ZH{font-size:4rem;}
+                                             .BUTTON_ZH{font-size:3rem;}
                                              .BUTTON_Z{font-size:2rem;}
 
                                              .bottom_container{width:57rem;}
@@ -740,7 +747,7 @@ hr{
                                             .name1{padding-top:0.9rem;}
                                             .name{width:10rem;
                                                   bottom:0rem;
-                                                  padding-top:0.95rem;}
+                                                  padding-top:0.3rem;}
                                             .h3_text{font-size:1.5rem;}
                                             .h_text{width:30rem;}
                                             .contact_text{font-text:1.3rem;
