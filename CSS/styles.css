@@ -129,6 +129,7 @@ hr{
        padding-left:4rem;
        padding-right:4rem;
        }
+
 .manager{
          width:6.7rem;
          height:6.7rem;
@@ -139,6 +140,33 @@ hr{
          -webkit-border-radius: 31.25rem;
          -moz-border-radius: 31.25rem;
         }
+
+.managerL{
+         width:6.7rem;
+         height:6.7rem;
+         background-color:#9ED5C5;
+         position: relative;
+         border:0.3125rem solid black;
+         border-radius: 31.25rem;
+         -webkit-border-radius: 31.25rem;
+         -moz-border-radius: 31.25rem;
+         box-shadow: 0 0 0.3rem 0.3rem;
+        }
+
+.managerL2{
+         width:6.7rem;
+         height:6.7rem;
+         background-color:#9ED5C5;
+         position: relative;
+         border:0.3125rem solid black;
+         border-radius: 31.25rem;
+         -webkit-border-radius: 31.25rem;
+         -moz-border-radius: 31.25rem;
+         box-shadow: 0 0 0.3rem 0.3rem #c31616;
+        }
+
+
+
 .skill1A{
          height:8rem;
          width:8rem;
@@ -147,6 +175,49 @@ hr{
          display:inline-block;
          padding-top:1rem;
         }
+.skill1AL{
+         height:8rem;
+         width:8rem;
+         float:left;
+         position: relative;
+         display:inline-block;
+         padding-top:1rem;
+        }
+
+ .middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+          }
+
+.skill1AL:hover .managerL {opacity: 0.1;}
+
+.skill1AL:hover .middle {opacity: 1;}
+
+.skill1AL:hover .managerL2 {opacity: 0.1;}
+
+.skill2BL:hover .compL {opacity: 0.1;}
+
+.skill2BL:hover .middle {opacity: 1;}
+
+
+.text {
+  color: #004f8b;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.text2{
+  color: #004f8b;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
 .skill1B{
         width:28rem;
         position: relative;
@@ -167,11 +238,20 @@ hr{
          display:inline-block;
          padding-top:1rem;
         }
+.skill2BL{
+         height:8rem;
+         width:8rem;
+         float:right;
+         position: relative;
+         display:inline-block;
+         padding-top:1rem;
+        }
+
 .dots{
       color: grey;
       width: 9%;
       margin-top: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2.5rem;
       border-style : none;
       border-top-style : dotted;
       border-width: 0.5rem 0.5rem;
@@ -182,12 +262,27 @@ hr{
            margin:0rem;
           }
 .comp{
+       width:6.7rem;
+       height:6.7rem;
        background-color:#9ED5C5;
        border:0.3125rem solid black;
        border-radius: 31.25rem;
        -webkit-border-radius: 31.25rem;
        -moz-border-radius: 31.25rem;
       }
+
+.compL{
+       width:6.7rem;
+       height:6.7rem;
+       background-color:#9ED5C5;
+       border:0.3125rem solid black;
+       border-radius: 31.25rem;
+       -webkit-border-radius: 31.25rem;
+       -moz-border-radius: 31.25rem;
+       box-shadow: 0 0 0.3rem 0.3rem #b1a437;
+      }
+
+
 .hobby_h3{
           margin: 0rem;
           margin-top: 0rem;
@@ -215,7 +310,7 @@ hr{
            }
 .bottom_container{
                  height:9rem;
-                 width: 45rem; /*38.75rem;*/
+                 width: 45rem;
                  background-color: #66BFBF;
                  padding-bottom: 0.625rem;
                  }
@@ -509,7 +604,7 @@ hr{
                                                   top:19rem;
                                                   }
                                             .lake{
-                                                 height: 32rem; 
+                                                 height: 32rem;
                                                  width: 55rem;
                                                  }
                                             .comp2{
@@ -537,15 +632,15 @@ hr{
                                             .mid_container{width:57rem;}
                                             .profile{height:36rem;}
                                             .profile-text1{font-size:4rem;}
-                                            .profile-text2{font-size:1.5rem;}           
+                                            .profile-text2{font-size:1.5rem;}
                                             .manager{
                                                      width:8rem;
-                                                     height:8rem;     
+                                                     height:8rem;
                                                      left:1.5rem;
                                                     }
                                             .comp{
                                                   width:8rem;
-                                                  height:8rem;        
+                                                  height:8rem;
                                                   right:1.5rem;
                                                  }
                                             .skills{
@@ -561,10 +656,10 @@ hr{
                                                     }
                                             .skill2A{
                                                      width:35.5rem;
-                                                     }      
+                                                     }
                                             .skill2B{
                                                      right:3.5rem;
-                                                    }     
+                                                    }
                                              .school{width:48rem;
                                                      height:12rem;
                                                                  }
@@ -574,9 +669,9 @@ hr{
                                                  width:45rem;
                                                  }
                                              .skill_list{width:40rem;
-                                                         padding-left:0;            
-                                                         }                                            
-                                             .h1_sk{font-size:5rem;}     
+                                                         padding-left:0;
+                                                         }
+                                             .h1_sk{font-size:5rem;}
                                              .logo{
                                                   height:4rem;
                                                   width:4rem;
@@ -615,7 +710,7 @@ hr{
                                                       height:6rem;
                                                       border-width:2.5rem;
                                                       border:0.2rem solid #004f8b;
-                                                      border-radius: 2rem;                                                    
+                                                      border-radius: 2rem;
                                                       }
                                             .hobby{
                                                    padding-top:0.5rem;
@@ -653,7 +748,7 @@ hr{
                                             h2{font-size:2.5rem;}
                                             .h3_skills{font-size:1.6rem;}
                                             .top_container{
-                                                 
+
                                                           height:41rem;
                                                           width:45rem;
                                                           }
@@ -697,40 +792,40 @@ hr{
                                                          left:2.5rem;
                                                          bottom: 15.625rem;
                                                          }
-                      
+
                                             .profile{height:25rem;}
                                             .profile-text1{font-size:3rem;}
                                             .profile-text2{font-size:1rem;}
                                             .mid_container{width:45rem;}
                                             .manager{
                                                      width:6.7rem;
-                                                     height:6.7rem;     
+                                                     height:6.7rem;
                                                      left:0rem;
                                                     }
                                             .comp{
                                                   width:6.7rem;
-                                                  height:6.7rem;                                                      
+                                                  height:6.7rem;
                                                   right:0rem;
                                                  }
                                             .skills{
                                                     padding-left:3rem;
-                                                    padding-right:3rem;       
+                                                    padding-right:3rem;
                                                     font-size:1rem;
                                                    }
                                             .skill1A{
                                                      left:0rem;
-                                                     }      
+                                                     }
                                             .skill1B{
                                                      width:28rem;
                                                     }
                                             .skill2A{
                                                      width:28rem;
-                                                     }      
+                                                     }
                                             .skill2B{
                                                      right:0rem;
                                                     }
                                             .school{width:32rem;
-                                                    height:8rem;          
+                                                    height:8rem;
                                                    }
                                             .sb_1{
                                                   padding:0rem;
@@ -743,7 +838,7 @@ hr{
                                                   height:3rem;
                                                   weight:3rem;
                                                   }
-                                            .p_logo{ 
+                                            .p_logo{
                                                      height:3rem;
                                                      weight:3rem;
                                                      }
@@ -805,6 +900,6 @@ hr{
                                             .footer-link{width:3rem;
                                                          height:3rem;}
 }
-                                                   
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {   }
