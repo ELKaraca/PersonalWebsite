@@ -30,7 +30,7 @@ hr{
   }
 .canvas{
        height: 100%;
-       width: 100%;
+       width: 46rem;
        font-family:'Merriweather', serif;
        align-items: center;
        justify-content: center;
@@ -583,7 +583,6 @@ hr{
                                           }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/*
 @media only screen and (min-width: 600px) {
                                              h2{font-size:3.5rem;}
                                             .h3_skills{font-size:2rem;}
@@ -741,7 +740,7 @@ hr{
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
                                              }
-*/
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {   }
 
