@@ -476,13 +476,13 @@ hr{
 .lines{
        margin:0rem;
       }
-
+.experience{
+            margin-left:1rem
+            }
 .h3_mid{
         background:#9ED5C5;
         height:2.3rem;
         width:5rem;
-        text-align:center;
-        position:relative;
         display:inline-block;
         border-width:2rem;
         border:0.2rem solid #66BFBF;
