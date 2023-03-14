@@ -576,13 +576,14 @@ hr{
        bottom:0.7rem;
        left:1rem;
        }
-/*
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
                                           }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+/*
 @media only screen and (min-width: 600px) {
                                              h2{font-size:3.5rem;}
                                             .h3_skills{font-size:2rem;}
@@ -740,7 +741,7 @@ hr{
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
                                              }
-
+*/
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {   }
 
