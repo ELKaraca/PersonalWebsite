@@ -749,6 +749,9 @@ hr{
 @media only screen and (min-width: 600px) {
                                              h2{font-size:3.5rem;}
                                             .h3_skills{font-size:2rem;}
+                                            .canvas{
+                                                    width: 46rem;
+                                                   }
                                             .top_container{
                                                           height: 73rem;
                                                           width: %100;
