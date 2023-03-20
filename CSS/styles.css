@@ -582,12 +582,10 @@ hr{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-                                          .canvas{width:46rem;}
                                           }
 
 @media only screen and (min-width: 600px) {
                                             h2{font-size:3.5rem;}
-                                            .canvas{width:%100;}
                                             .h3_skills{font-size:2rem;}
                                             .top_container{
                                                           height: 73rem;
@@ -900,7 +898,6 @@ hr{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
                                             h2{font-size:2.5rem;}
-                                            .canvas{width:%100;}
                                             .h3_skills{font-size:1.6rem;}
                                             .top_container{
                                                           height:41rem;
