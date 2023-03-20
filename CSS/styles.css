@@ -748,13 +748,14 @@ hr{
 */
 @media only screen and (min-width: 600px) {
                                              h2{font-size:3.5rem;}
+                                             .canvas{
+                                                     width: 59rem;
+                                                     }
+
                                             .h3_skills{font-size:2rem;}
-                                            .canvas{
-                                                    width: 46rem;
-                                                   }
                                             .top_container{
                                                           height: 73rem;
-                                                          width: %100;
+                                                          width: 57rem;
                                                           }
                                             .top_container2{width:57rem;
                                                             height:8rem;
@@ -796,7 +797,7 @@ hr{
                                                          left:3rem;
                                                          bottom: 35rem;
                                                          }
-                                            .mid_container{width:%100;}
+                                            .mid_container{width:57rem;}
                                             .profile{height:36rem;}
                                             .profile-text1{font-size:4rem;}
                                             .profile-text2{font-size:1.5rem;}
@@ -892,7 +893,7 @@ hr{
                                              .BUTTON_ZH{font-size:2.5rem;}
                                              .BUTTON_Z{font-size:2rem;}
 
-                                             .bottom_container{width:100%;}
+                                             .bottom_container{width:57rem;}
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
                                              }
@@ -903,10 +904,11 @@ hr{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
                                             h2{font-size:2.5rem;}
-                                            .h3_skills{font-size:1.6rem;}
                                             .canvas{
-                                                    width: %100;
+                                                    width: 100%;
                                                    }
+
+                                            .h3_skills{font-size:1.6rem;}
                                             .top_container{
 
                                                           height:41rem;
