@@ -795,7 +795,7 @@ hr{
                                                          }
                                             .mid_container{width:57rem;}
                                             .profile{height:36rem;}
-                                            .profile-text1{font-size:4rem;}
+                                            .profile-text1{font-size:1rem;}
                                             .profile-text2{font-size:1.5rem;}
                                             .skills{
                                                      padding-left:2rem;
@@ -902,7 +902,6 @@ hr{
                                             h2{font-size:2.5rem;}
                                             .h3_skills{font-size:1.6rem;}
                                             .top_container{
-
                                                           height:41rem;
                                                           width:45rem;
                                                           }
