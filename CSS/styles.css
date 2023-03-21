@@ -6,7 +6,7 @@ body{
      margin: 0;
     }
 h1{
-   text-shadow: 2px 2px black;
+   text-shadow: 0.125rem 0.125rem black;
   }
 h2{
    color:#004F8B;
@@ -48,7 +48,7 @@ hr{
  /* index */
 .top_container {
                 height:41rem;
-                width: 45rem;
+                width:45rem;
                 background-color: #9ED5C5;
                 position:relative;
                 padding-top: 0rem;
@@ -65,12 +65,12 @@ hr{
 .t_lh2{
     color:#004f8b;
     position: absolute;
-    text-shadow: 2px 2px black;
+    text-shadow: 0.125rem 0.125rem black;
     top: 11rem;
     left: 14rem;
       }
 .lake{
-     width:45rem;/*38.75rem;*/
+     width:45rem;
      height:15.625rem;
      position: absolute;
      left: 0rem;
@@ -183,17 +183,18 @@ hr{
          display:inline-block;
          padding-top:1rem;
         }
-
  .middle {
+          width:8rem;
+          height:8rem;
           transition: .5s ease;
           opacity: 0;
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          -moz-border-radius: 50px;
-          -webkit-border-radius: 50px;
-          border-radius: 50px;
+          -moz-border-radius: 3.125rem;
+          -webkit-border-radius: 3.125rem;
+          border-radius: 3.125rem;
           text-align: center;
           }
 
