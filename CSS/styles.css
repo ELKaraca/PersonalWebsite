@@ -237,6 +237,7 @@ hr{
           -webkit-border-radius: 3.125rem;
           border-radius: 3.125rem;
           text-align: center;
+          padding: 1.5rem 0rem 0rem 3.5rem;
           }
 .text {
   color: #004f8b;
@@ -247,7 +248,7 @@ hr{
 .text2{
   color: #004f8b;
   font-size: 1rem;
-  padding: 1rem 2rem;
+  padding: 0rem 3rem 0rem 0rem;
 }
 
 .dots{
@@ -260,6 +261,7 @@ hr{
       border-width: 0.5rem 0.5rem;
       display:block;
      }
+
 .h3_skills{
            padding:0rem;
            margin:0rem;
@@ -678,7 +680,8 @@ hr{
                                             .skill2BL{
                                                      right:3.5rem;
                                                      }
-
+                                            .middle{padding: 1rem 0rem 0rem 3.5rem;}
+                                            .text2{padding: 0rem 3rem 0rem 0rem;}
                                             .school{width:48rem;
                                                      height:12rem;
                                                    }
@@ -758,157 +761,6 @@ hr{
                                              .footer-link{ width:4rem;
                                                            height:4rem;}
                                            }
-
-/*
-@media only screen and (min-width: 600px) {
-                                             h2{font-size:3.5rem;}
-
-                                            .h3_skills{font-size:2rem;}
-                                            .top_container{
-                                                          height: 73rem;
-                                                          width: 57rem;
-                                                          }
-                                            .top_container2{width:57rem;
-                                                            height:8rem;
-                                                            padding-top:2rem;
-                                                           }
-                                            .t_h1{
-                                                font-size:6rem;
-                                                left:13rem;
-                                                top:12rem;
-                                                 }
-                                            .t_lh2{
-                                                  font-size:3.75rem;
-                                                  left:15rem;
-                                                  top:19rem;
-                                                  }
-                                            .lake{
-                                                 height: 32rem;
-                                                 width: 55rem;
-                                                 }
-                                            .comp2{
-                                                  height:13rem;
-                                                  width:13rem;
-                                                  left:26rem;
-                                                  }
-                                            .esp{
-                                                 width : 8rem;
-                                                 height: 8rem;
-                                                 left: 17rem;
-                                                }
-                                            .top_cloud{
-                                                       width: 11rem;
-                                                       height: 10rem;
-                                                       right: 3rem;
-                                                       top: 2rem;
-                                                       }
-                                            .bottom_cloud{
-                                                         width: 11rem;
-                                                         height: 10rem;
-                                                         left:3rem;
-                                                         bottom: 35rem;
-                                                         }
-                                            .mid_container{width:57rem;}
-                                            .profile{height:36rem;}
-                                            .profile-text1{font-size:1rem;}
-                                            .profile-text2{font-size:1.5rem;}
-                                            .skills{
-                                                     padding-left:2rem;
-                                                     padding-right:2rem;
-                                                     font-size:1.6rem;
-                                                    }
-                                            .skill1A{
-                                                    left:1.5rem;
-                                                    }
-                                            .skill1B{
-                                                     width:35.5rem;
-                                                    }
-                                            .skill2A{
-                                                     width:35.5rem;
-                                                     }
-                                            .skill2B{
-                                                     right:3.5rem;
-                                                    }
-                                             .school{width:48rem;
-                                                     height:12rem;
-                                                                 }
-                                             .sb_1{
-                                                 padding-left:5rem;
-                                                 padding-right:5rem;
-                                                 width:45rem;
-                                                 }
-                                             .skill_list{width:40rem;
-                                                         padding-left:0;
-                                                         }
-                                             .h1_sk{font-size:5rem;}
-                                             .logo{
-                                                  height:4rem;
-                                                  width:4rem;
-                                                  }
-                                             .p_logo{
-                                                     height:4rem;
-                                                     width:4rem;
-                                                     }
-                                             .h3_text{font-size:2.8rem;}
-                                             .name1{padding-top:0.4rem;}
-                                             .name{width: 20rem;
-                                                   bottom:1rem;
-                                                   padding-top:0.4rem;}
-                                             .h_text{
-                                                    font-size:1.7rem;
-                                                    width:45rem;
-                                                    }
-                                             .contact_text{font-size:1.3rem;
-                                                           font-family: 'Martel Sans', sans-serif;}
-                                             .top_container3{width:57rem;
-                                                             height:12rem;}
-                                             .h3_edu{font-size:2.7rem;}
-                                             .h3_mid{padding-bottom:0.4rem;
-                                                     height:3rem;
-                                                     width:8rem;
-                                                     font-size:2.1rem;
-                                                     border-width:2rem;
-                                                     border:0.2rem solid #004f8b;
-                                                     border-radius: 1.75rem;}
-                                             .lines{font-size:1.7rem;}
-                                             .education_b{
-                                                         height:43rem;
-                                                         }
-                                             .company{
-                                                      width:50rem;
-                                                      height:6rem;
-                                                      border-width:2.5rem;
-                                                      border:0.2rem solid #004f8b;
-                                                      border-radius: 2rem;
-                                                      }
-                                            .hobby{
-                                                   padding-top:0.5rem;
-                                                  }
-                                            .hobby_h3A{font-size:2.4rem;}
-                                            .hobby_h3B{font-size:2.2rem;}
-                                            .h_logo{}
-                                            .hobbies{
-                                                     padding-top:0.5rem;
-                                                     padding-left:2rem;
-                                                     padding-right:2rem;
-                                                     padding-bottom:0.5rem;
-                                                     }
-                                            .h_text{
-                                                    width:40rem;
-                                                    font-size:1.2rem;
-                                                    bottom:0.7rem;
-                                                    left:1rem;
-                                                    }
-
-                                             .BUTTON_ZHS{font-size:2.5rem;}
-                                             .BUTTON_ZH{font-size:2.5rem;}
-                                             .BUTTON_Z{font-size:2rem;}
-
-                                             .bottom_container{width:57rem;}
-                                             .footer-link{ width:4rem;
-                                                           height:4rem;}
-                                             }
-*/
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {   }
 
@@ -1012,7 +864,8 @@ hr{
                                                      right:0rem;
                                                     }
                                             .skill2BL{right:0rem;}
-
+                                            .middle{padding: 0rem 0rem 0rem 0rem;}
+                                            .text2{padding:0rem 0rem 0rem 0rem;}
                                             .school{width:32rem;
                                                     height:8rem;
                                                    }
