@@ -4,6 +4,7 @@ body{
      width: 100%;
      background-color: #8EC3B0;
      margin: 0;
+     padding:0;
     }
 h1{
    text-shadow: 0.125rem 0.125rem black;
@@ -167,6 +168,18 @@ hr{
          box-shadow: 0 0 0.3rem 0.3rem #c31616;
         }
 
+
+.skill1AL:hover .managerL {opacity: 0.1;}
+
+.skill1AL:hover .middle {opacity: 1;}
+
+.skill1AL:hover .managerL2 {opacity: 0.1;}
+
+.skill2BL:hover .compL {opacity: 0.1;}
+
+.skill2BL:hover .middle {opacity: 1;}
+
+
 .skill1A{
          height:8rem;
          width:8rem;
@@ -183,43 +196,6 @@ hr{
          display:inline-block;
          padding-top:1rem;
         }
- .middle {
-          width:8rem;
-          height:8rem;
-          transition: .5s ease;
-          opacity: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -moz-border-radius: 3.125rem;
-          -webkit-border-radius: 3.125rem;
-          border-radius: 3.125rem;
-          text-align: center;
-          }
-
-.skill1AL:hover .managerL {opacity: 0.1;}
-
-.skill1AL:hover .middle {opacity: 1;}
-
-.skill1AL:hover .managerL2 {opacity: 0.1;}
-
-.skill2BL:hover .compL {opacity: 0.1;}
-
-.skill2BL:hover .middle {opacity: 1;}
-
-
-.text {
-  color: #004f8b;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-}
-
-.text2{
-  color: #004f8b;
-  font-size: 1rem;
-  padding: 1rem 2rem;
-}
 
 .skill1B{
         width:28rem;
@@ -250,6 +226,30 @@ hr{
          padding-top:1rem;
         }
 
+.middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -moz-border-radius: 3.125rem;
+          -webkit-border-radius: 3.125rem;
+          border-radius: 3.125rem;
+          text-align: center;
+          }
+.text {
+  color: #004f8b;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.text2{
+  color: #004f8b;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
 .dots{
       color: grey;
       width: 9%;
@@ -264,7 +264,6 @@ hr{
            padding:0rem;
            margin:0rem;
           }
-
 .comp{
        width:6.7rem;
        height:6.7rem;
@@ -285,7 +284,6 @@ hr{
        -moz-border-radius: 31.25rem;
        box-shadow: 0 0 0.3rem 0.3rem #b1a437;
       }
-
 
 .hobby_h3{
           margin: 0rem;
@@ -646,6 +644,17 @@ hr{
                                                   height:8rem;
                                                   right:1.5rem;
                                                  }
+                                            .compL{
+                                                  width:8rem;
+                                                  height:8rem;
+                                                  right:1.5rem;
+                                            }
+                                            .managerL{width:8rem;
+                                                     height:8rem;
+                                                     left:1.5rem;}
+                                            .managerL2{width:8rem;
+                                                     height:8rem;
+                                                     left:1.5rem;}
                                             .skills{
                                                      padding-left:2rem;
                                                      padding-right:2rem;
@@ -654,6 +663,9 @@ hr{
                                             .skill1A{
                                                     left:1.5rem;
                                                     }
+                                            .skill1AL{
+                                                     left:1.5rem;
+                                                     }
                                             .skill1B{
                                                      width:35.5rem;
                                                     }
@@ -663,52 +675,56 @@ hr{
                                             .skill2B{
                                                      right:3.5rem;
                                                     }
-                                             .school{width:48rem;
+                                            .skill2BL{
+                                                     right:3.5rem;
+                                                     }
+
+                                            .school{width:48rem;
                                                      height:12rem;
-                                                                 }
-                                             .sb_1{
+                                                   }
+                                            .sb_1{
                                                  padding-left:5rem;
                                                  padding-right:5rem;
                                                  width:45rem;
                                                  }
-                                             .skill_list{width:40rem;
+                                            .skill_list{width:40rem;
                                                          padding-left:0;
                                                          }
-                                             .h1_sk{font-size:5rem;}
-                                             .logo{
+                                            .h1_sk{font-size:5rem;}
+                                            .logo{
                                                   height:4rem;
                                                   width:4rem;
                                                   }
-                                             .p_logo{
+                                            .p_logo{
                                                      height:4rem;
                                                      width:4rem;
                                                      }
-                                             .h3_text{font-size:2.8rem;}
-                                             .name1{padding-top:0.4rem;}
-                                             .name{width: 20rem;
+                                            .h3_text{font-size:2.8rem;}
+                                            .name1{padding-top:0.4rem;}
+                                            .name{width: 20rem;
                                                    bottom:1rem;
                                                    padding-top:0.4rem;}
-                                             .h_text{
+                                            .h_text{
                                                     font-size:1.7rem;
                                                     width:45rem;
                                                     }
-                                             .contact_text{font-size:1.3rem;
+                                            .contact_text{font-size:1.3rem;
                                                            font-family: 'Martel Sans', sans-serif;}
-                                             .top_container3{width:57rem;
+                                            .top_container3{width:57rem;
                                                              height:12rem;}
-                                             .h3_edu{font-size:2.7rem;}
-                                             .h3_mid{padding-bottom:0.4rem;
+                                            .h3_edu{font-size:2.7rem;}
+                                            .h3_mid{padding-bottom:0.4rem;
                                                      height:3rem;
                                                      width:8rem;
                                                      font-size:2.1rem;
                                                      border-width:2rem;
                                                      border:0.2rem solid #004f8b;
                                                      border-radius: 1.75rem;}
-                                             .lines{font-size:1.7rem;}
-                                             .education_b{
+                                            .lines{font-size:1.7rem;}
+                                            .education_b{
                                                          height:43rem;
                                                          }
-                                             .company{
+                                            .company{
                                                       width:50rem;
                                                       height:6rem;
                                                       border-width:2.5rem;
@@ -954,11 +970,28 @@ hr{
                                                      height:6.7rem;
                                                      left:0rem;
                                                     }
+                                            .managerL{
+                                                     width:6.7rem;
+                                                     height:6.7rem;
+                                                     left:0rem;
+                                                    }
+                                            .managerL2{
+                                                     width:6.7rem;
+                                                     height:6.7rem;
+                                                     left:0rem;
+                                                    }
+
                                             .comp{
                                                   width:6.7rem;
                                                   height:6.7rem;
                                                   right:0rem;
                                                  }
+                                            .compL{
+                                                  width:6.7rem;
+                                                  height:6.7rem;
+                                                  right:0rem;
+                                                 }
+
                                             .skills{
                                                     padding-left:3rem;
                                                     padding-right:3rem;
@@ -967,6 +1000,8 @@ hr{
                                             .skill1A{
                                                      left:0rem;
                                                      }
+                                            .skill1AL{left:0;}
+
                                             .skill1B{
                                                      width:28rem;
                                                     }
@@ -976,6 +1011,8 @@ hr{
                                             .skill2B{
                                                      right:0rem;
                                                     }
+                                            .skill2BL{right:0rem;}
+
                                             .school{width:32rem;
                                                     height:8rem;
                                                    }
