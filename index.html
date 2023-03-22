@@ -1,947 +1,154 @@
-/* General */
-body{
-     height: 100%;
-     width: 100%;
-     background-color: #8EC3B0;
-     margin: 0;
-     padding:0;
-    }
-h1{
-   text-shadow: 0.125rem 0.125rem black;
-  }
-h2{
-   color:#004F8B;
-   font-family:'Sriracha', sans-serif;
-   font-size:2.5rem;
-   margin:0;
-   padding-top:1rem;
-  }
-h3{
-  color:#004F8B;
-  font-family: 'Martel Sans', sans-serif;
-  font-size:1.5rem;
-  margin-bottom : 0rem;
-  }
-hr{
-  color: white;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  border-style : none;
-  border-top-style : solid;
-  border-width: 0,0625rem 0,0625rem;
-  }
-.canvas{
-       height: 100%;
-       width: 100%;
-       font-family:'Merriweather', serif;
-       align-items: center;
-       justify-content: center;
-       display: flex;
-       text-align: center;
-      }
-.main{
-     border-style : none;
-     border-left-style: solid;
-     border-right-style: solid;
-     border-width: 0rem 0.0625rem;
-     border-color:white;
-     }
- /* index */
-.top_container {
-                height:41rem;
-                width:45rem;
-                background-color: #9ED5C5;
-                position:relative;
-                padding-top: 0rem;
-               }
-.t_h1{
-    color:#004f8b;
-    font-family:'Itim', cursive;
-    font-size:4rem;
-    position: absolute;
-    margin:2.6rem auto 0 auto;
-    left:13rem;
-    top:5rem;
-  }
-.t_lh2{
-    color:#004f8b;
-    position: absolute;
-    text-shadow: 0.125rem 0.125rem black;
-    top: 11rem;
-    left: 14rem;
-      }
-.lake{
-     width:45rem;
-     height:15.625rem;
-     position: absolute;
-     left: 0rem;
-     bottom: 0rem;
-     }
-.comp2{
-       width : 10rem;
-       height: 10rem;
-       position: absolute;
-       left: 20rem;
-       bottom: 1rem;
-      }
-.esp{
-      width : 5rem;
-      height: 5rem;
-      position: absolute;
-      left: 15rem;
-      bottom: 1rem;
-    }
-.top_cloud{
-            width: 7rem;
-            height: 6rem;
-            position: absolute;
-            right: 2rem;
-            top: 0rem;
-           }
-.bottom_cloud{
-              width: 7rem;
-              height: 6rem;
-              position: absolute;
-              left: 2.5rem;
-              bottom: 15.625rem;
-             }
-.mid_container{
-              width: 45rem;
-              background-color: white;
-              }
-.profile{
-         height: 25rem;
-         background-color: #BCEAD5;
-         padding-top: 1.25rem;
-         }
-
-.profile-text1{
-              color: #004f8b;
-              font-size:3rem;
-              margin: 0.625rem;
-              }
-.profile-text2{
-               font-size:1rem;
-               margin:0rem;
-               padding-left:5rem;
-               padding-right:5rem;
-               }
-.skills{
-       background-color: white;
-       padding : 0.625rem;
-       padding-left:4rem;
-       padding-right:4rem;
-       }
-
-.manager{
-         width:6.7rem;
-         height:6.7rem;
-         background-color:#9ED5C5;
-         position: relative;
-         border:0.3125rem solid black;
-         border-radius: 31.25rem;
-         -webkit-border-radius: 31.25rem;
-         -moz-border-radius: 31.25rem;
-        }
-
-.managerL{
-         width:6.7rem;
-         height:6.7rem;
-         background-color:#9ED5C5;
-         position: relative;
-         border:0.3125rem solid black;
-         border-radius: 31.25rem;
-         -webkit-border-radius: 31.25rem;
-         -moz-border-radius: 31.25rem;
-         box-shadow: 0 0 0.3rem 0.3rem;
-        }
-
-.managerL2{
-         width:6.7rem;
-         height:6.7rem;
-         background-color:#9ED5C5;
-         position: relative;
-         border:0.3125rem solid black;
-         border-radius: 31.25rem;
-         -webkit-border-radius: 31.25rem;
-         -moz-border-radius: 31.25rem;
-         box-shadow: 0 0 0.3rem 0.3rem #c31616;
-        }
-
-
-.skill1AL:hover .managerL {opacity: 0.1;}
-
-.skill1AL:hover .middle {opacity: 1;}
-
-.skill1AL:hover .managerL2 {opacity: 0.1;}
-
-.skill2BL:hover .compL {opacity: 0.1;}
-
-.skill2BL:hover .middle {opacity: 1;}
-
-
-.skill1A{
-         height:8rem;
-         width:8rem;
-         float:left;
-         position: relative;
-         display:inline-block;
-         padding-top:1rem;
-        }
-.skill1AL{
-         height:8rem;
-         width:8rem;
-         float:left;
-         position: relative;
-         display:inline-block;
-         padding-top:1rem;
-        }
-
-.skill1B{
-        width:28rem;
-        position: relative;
-        display:inline-block;
-        text-align:left;
-        }
-.skill2A{
-        width:28rem;
-        position: relative;
-        display:inline-block;
-        text-align:left;
-        }
-.skill2B{
-         height:8rem;
-         width:8rem;
-         float:right;
-         position: relative;
-         display:inline-block;
-         padding-top:1rem;
-        }
-.skill2BL{
-         height:8rem;
-         width:8rem;
-         float:right;
-         position: relative;
-         display:inline-block;
-         padding-top:1rem;
-        }
-
-.middle {
-          transition: .5s ease;
-          opacity: 0;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -moz-border-radius: 3.125rem;
-          -webkit-border-radius: 3.125rem;
-          border-radius: 3.125rem;
-          text-align: center;
-          padding: 1.5rem 0rem 0rem 3.5rem;
-          }
-.text {
-  color: #004f8b;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-}
-
-.text2{
-  color: #004f8b;
-  font-size: 1rem;
-  padding: 0rem 3rem 0rem 0rem;
-}
-
-.dots{
-      color: grey;
-      width: 9%;
-      margin-top: 1rem;
-      margin-bottom: 2.5rem;
-      border-style : none;
-      border-top-style : dotted;
-      border-width: 0.5rem 0.5rem;
-      display:block;
-     }
-
-.h3_skills{
-           padding:0rem;
-           margin:0rem;
-          }
-.comp{
-       width:6.7rem;
-       height:6.7rem;
-       background-color:#9ED5C5;
-       border:0.3125rem solid black;
-       border-radius: 31.25rem;
-       -webkit-border-radius: 31.25rem;
-       -moz-border-radius: 31.25rem;
-      }
-
-.compL{
-       width:6.7rem;
-       height:6.7rem;
-       background-color:#9ED5C5;
-       border:0.3125rem solid black;
-       border-radius: 31.25rem;
-       -webkit-border-radius: 31.25rem;
-       -moz-border-radius: 31.25rem;
-       box-shadow: 0 0 0.3rem 0.3rem #b1a437;
-      }
-
-.hobby_h3{
-          margin: 0rem;
-          margin-top: 0rem;
-          margin-bottom: 0rem;
-          padding:0rem;
-         }
-
-.contact_head{
-             color:	#004f8b;
-             margin-block-start: 0rem;
-             margin-block-end: 0rem;
-             padding:0;
-             }
-.contact_text{
-             color:	black;
-             font-size:1.3rem;
-             text-shadow: none;
-             margin-block-start: 0rem;
-             margin-block-end: 0rem;
-             margin-left:1rem;
-             padding:0rem;
-             }
-.contact-me{
-           background-color: #9ED5C5;
-           padding-bottom:0.625rem;
-           }
-.bottom_container{
-                 height:9rem;
-                 width: 45rem;
-                 background-color: #66BFBF;
-                 padding-bottom: 0.625rem;
-                 }
-.BUTTON_ZHS {
-   background: #42C6DA;
-   background-image: -webkit-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -moz-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -ms-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -o-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -webkit-gradient(to bottom, #42C6DA, #308F9D);
-   -webkit-border-radius: 1.25rem;
-   -moz-border-radius: 1.25rem;
-   border-radius: 1.25rem;
-   color: black;
-   font-family: 'Sriracha', sans-serif;
-   font-size: 1.5625rem;
-   font-weight: 6.25rem;
-   padding: 0rem 0.5rem;
-   -webkit-box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   -moz-box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   text-shadow: 0.125rem 0.125rem 1.25rem #000000;
-   border: solid #000000 0.0625rem;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-              }
-.BUTTON_ZHS:hover {
-   border: solid #000000 0.0625rem;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 1.25rem;
-   -moz-border-radius: 1.25rem;
-   border-radius: 1.25rem;
-   text-decoration: none;
-}
-.BUTTON_ZH {
-   background: #42C6DA;
-   background-image: -webkit-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -moz-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -ms-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -o-linear-gradient(top, #42C6DA, #308F9D);
-   background-image: -webkit-gradient(to bottom, #42C6DA, #308F9D);
-   -webkit-border-radius: 1.25rem;
-   -moz-border-radius: 1.25rem;
-   border-radius: 1.25rem;
-   color: black;
-   font-family: 'Sriracha', sans-serif;
-   font-size: 1.5625rem;
-   font-weight: 6.25rem;
-   padding: 0rem 0.5rem;
-   -webkit-box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   -moz-box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   box-shadow: 0.125rem 0.125rem 1.25rem 0rem #000000;
-   text-shadow: 0.125rem 0.125rem 1.25rem #000000;
-   border: solid #000000 0.0625rem;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
-}
-.BUTTON_ZH:hover {
-   border: solid #000000 0.0625rem;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 1.25rem;
-   -moz-border-radius: 1.25rem;
-   border-radius: 1.25rem;
-   text-decoration: none;
-}
-.top_container2{
-                height:5rem;
-                width: 45rem;
-                background-color: #9ED5C5;
-                position:relative;
-                margin:0rem;
-                padding-top:1rem;
-                padding-bottom:1rem;
-                }
-.top_container3{
-                 height:8rem;
-                 width: 45rem; /*38.75rem;*/
-                 background-color: #9ED5C5;
-                 position:relative;
-                 margin: 0rem;
-                 padding-top: 1rem;
-                 padding-bottom:1rem;
-                 }
-.logo{
-       float:left;
-       height:3rem;
-       width:3rem;
-       position:relative;
-       display:inline-block;
-     }
-
-.name{
-     float:left;
-     width: 10rem;
-     text-align:center;
-     position:relative;
-     display:inline-block;
-     top: -0.5rem;
-    }
-.name1{
-      float:left;
-      position:relative;
-      display:inline-block;
-      top: -0.5rem;
-      }
-.p_logo{
-        height: 3rem;
-        weight: 3rem;
-       }
-.go_back{
-         background-color: #9ED5C5;
-         padding-bottom:2rem;
-         padding-top:2rem;
-         }
-.h1_sk{
-    color:#004f8b;
-    font-family:'Itim', cursive;
-    font-size:3.5rem;
-    margin:0rem;
-    padding-bottom:1.50rem;
-    }
-.sb_1{
-      height:auto;
-      width:25rem;
-      position:relative;
-      display:inline-block;
-      }
-.skill_list{
-           position:relative;
-           display:inline-block;
-           width:26rem;
-           padding:0rem;
-           padding-left:1rem;
-           margin-top:0.5rem;
-           margin-bottom:0.5rem;
-           }
-.h3_text{text-size:3rem;
-         margin:0;
-         padding:0;
-         }
-.S_name{
-       display:inline-block;
-       }
-.none{
-      position:relative;
-      display:none
-      }
-
-.lines{
-       margin:0rem;
-      }
-.experience{
-            margin-left:1rem
-            }
-.h3_mid{
-        background:#9ED5C5;
-        height:2.3rem;
-        width:5rem;
-        display:inline-block;
-        border-width:2rem;
-        border:0.2rem solid #66BFBF;
-        border-radius: 1.75rem;
-        margin:0rem;
-       }
-.company{
-        width:28rem;
-        height:3rem;
-        background:#9ED5C5;
-        text-align:center;
-        position:relative;
-        display:inline-block;
-        padding-top:0.5rem;
-        border-width:2rem;
-        border:0.2rem solid #66BFBF;
-        border-radius: 1.75rem;
-        }
-.space{
-       background-color:#9ED5C5;
-       height:1rem;
-      }
-.school{
-       width:32rem;
-       height:8rem;
-       position:relative;
-       display: inline-block;
-       justify-content: left;
-       align-items: center;
-       border-height:4rem;
-       border-width:4rem;
-       border:0.2rem solid #66BFBF;
-       background:#9ED5C5;
-       border-radius:1.75rem;
-       }
-.school_pic{
-            position:relative;
-            display:inline-block;
-            float:left;
-            top:2rem;
-            left:1rem;
-          }
-.school_text{
-             position:relative;
-             display:inline-block;
-             }
-.education_b{
-             height:29rem;
-             width:28,75rem;
-             padding-left:4rem;
-             padding-right:4rem;
-            }
-.h3_edu{margin:0rem;
-        padding:0rem;}
-.hobby{
-       position:relative;
-       display: inline-block;
-       padding-top:0.5rem;
-      }
-.hobby_h3A{
-          margin: 0rem;
-          margin-top: 0rem;
-          margin-bottom: 0rem;
-          padding:0rem;
-         }
-.hobby_h3B{
-          margin: 0rem;
-          margin-top: 0rem;
-          margin-bottom: 0rem;
-          padding:0rem;
-         }
-.h_logo{
-       float:left;
-       position:relative;
-       display:inline-block;
-       }
-.hobbies{
-       padding-top:0.5rem;
-       padding-left:4rem;
-       padding-right:4rem;
-       padding-bottom:0.5rem;
-       }
-.h_text{
-       width:30rem;
-       font-family:'Lato',sans;
-       font-size:1.2rem;
-       position:relative;
-       display:inline-block;
-       text-align:left;
-       bottom:0.7rem;
-       left:1rem;
-       }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-                                          }
-
-@media only screen and (min-width: 600px) {
-                                            h2{font-size:3.5rem;}
-                                            .h3_skills{font-size:2rem;}
-                                            .top_container{
-                                                          height: 73rem;
-                                                          width: 57rem;
-                                                          }
-                                            .top_container2{width:57rem;
-                                                            height:8rem;
-                                                            padding-top:2rem;
-                                                           }
-                                            .t_h1{
-                                                font-size:6rem;
-                                                left:13rem;
-                                                top:12rem;
-                                                 }
-                                            .t_lh2{
-                                                  font-size:3.75rem;
-                                                  left:15rem;
-                                                  top:19rem;
-                                                  }
-                                            .lake{
-                                                 height: 32rem;
-                                                 width: 55rem;
-                                                 }
-                                            .comp2{
-                                                  height:13rem;
-                                                  width:13rem;
-                                                  left:26rem;
-                                                  }
-                                            .esp{
-                                                 width : 8rem;
-                                                 height: 8rem;
-                                                 left: 17rem;
-                                                }
-                                            .top_cloud{
-                                                       width: 11rem;
-                                                       height: 10rem;
-                                                       right: 3rem;
-                                                       top: 2rem;
-                                                       }
-                                            .bottom_cloud{
-                                                         width: 11rem;
-                                                         height: 10rem;
-                                                         left:3rem;
-                                                         bottom: 35rem;
-                                                         }
-                                            .mid_container{width:57rem;}
-                                            .profile{height:36rem;}
-                                            .profile-text1{font-size:4rem;}
-                                            .profile-text2{font-size:1.5rem;}
-                                            .manager{
-                                                     width:8rem;
-                                                     height:8rem;
-                                                     left:1.5rem;
-                                                    }
-                                            .comp{
-                                                  width:8rem;
-                                                  height:8rem;
-                                                  right:1.5rem;
-                                                 }
-                                            .compL{
-                                                  width:8rem;
-                                                  height:8rem;
-                                                  right:1.5rem;
-                                            }
-                                            .managerL{width:8rem;
-                                                     height:8rem;
-                                                     left:1.5rem;}
-                                            .managerL2{width:8rem;
-                                                     height:8rem;
-                                                     left:1.5rem;}
-                                            .skills{
-                                                     padding-left:2rem;
-                                                     padding-right:2rem;
-                                                     font-size:1.6rem;
-                                                    }
-                                            .skill1A{
-                                                    left:1.5rem;
-                                                    }
-                                            .skill1AL{
-                                                     left:1.5rem;
-                                                     }
-                                            .skill1B{
-                                                     width:35.5rem;
-                                                    }
-                                            .skill2A{
-                                                     width:35.5rem;
-                                                     }
-                                            .skill2B{
-                                                     right:3.5rem;
-                                                    }
-                                            .skill2BL{
-                                                     right:3.5rem;
-                                                     }
-                                            .middle{padding: 1rem 0rem 0rem 3.5rem;}
-                                            .text2{padding: 0rem 3rem 0rem 0rem;}
-                                            .school{width:48rem;
-                                                     height:12rem;
-                                                   }
-                                            .sb_1{
-                                                 padding-left:5rem;
-                                                 padding-right:5rem;
-                                                 width:45rem;
-                                                 }
-                                            .skill_list{width:40rem;
-                                                         padding-left:0;
-                                                         }
-                                            .h1_sk{font-size:5rem;}
-                                            .logo{
-                                                  height:4rem;
-                                                  width:4rem;
-                                                  }
-                                            .p_logo{
-                                                     height:4rem;
-                                                     width:4rem;
-                                                     }
-                                            .h3_text{font-size:2.8rem;}
-                                            .name1{padding-top:0.4rem;}
-                                            .name{width: 20rem;
-                                                   bottom:1rem;
-                                                   padding-top:0.4rem;}
-                                            .h_text{
-                                                    font-size:1.7rem;
-                                                    width:45rem;
-                                                    }
-                                            .contact_text{font-size:1.3rem;
-                                                           font-family: 'Martel Sans', sans-serif;}
-                                            .top_container3{width:57rem;
-                                                             height:12rem;}
-                                            .h3_edu{font-size:2.7rem;}
-                                            .h3_mid{padding-bottom:0.4rem;
-                                                     height:3rem;
-                                                     width:8rem;
-                                                     font-size:2.1rem;
-                                                     border-width:2rem;
-                                                     border:0.2rem solid #004f8b;
-                                                     border-radius: 1.75rem;}
-                                            .lines{font-size:1.7rem;}
-                                            .education_b{
-                                                         height:43rem;
-                                                         }
-                                            .company{
-                                                      width:50rem;
-                                                      height:6rem;
-                                                      border-width:2.5rem;
-                                                      border:0.2rem solid #004f8b;
-                                                      border-radius: 2rem;
-                                                      }
-                                            .hobby{
-                                                   padding-top:0.5rem;
-                                                  }
-                                            .hobby_h3A{font-size:2.4rem;}
-                                            .hobby_h3B{font-size:2.2rem;}
-                                            .h_logo{}
-                                            .hobbies{
-                                                     padding-top:0.5rem;
-                                                     padding-left:2rem;
-                                                     padding-right:2rem;
-                                                     padding-bottom:0.5rem;
-                                                     }
-                                            .h_text{
-                                                    width:40rem;
-                                                    font-size:1.2rem;
-                                                    bottom:0.7rem;
-                                                    left:1rem;
-                                                    }
-
-                                             .BUTTON_ZHS{font-size:2.5rem;}
-                                             .BUTTON_ZH{font-size:2.5rem;}
-                                             .BUTTON_Z{font-size:2rem;}
-
-                                             .bottom_container{width:57rem;}
-                                             .footer-link{ width:4rem;
-                                                           height:4rem;}
-                                           }
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {   }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-                                            h2{font-size:2.5rem;}
-                                            .h3_skills{font-size:1.6rem;}
-                                            .top_container{
-                                                          height:41rem;
-                                                          width:45rem;
-                                                          }
-                                            .top_container2{width:45rem;
-                                                            height:7rem;
-                                                            padding-top:1rem;
-                                                            }
-                                            .t_h1{
-                                                font-size:4rem;
-                                                left:13rem;
-                                                top:5rem;
-                                                  }
-                                            .t_lh2{
-                                                  font-size:2.3rem;
-                                                  left:15rem;
-                                                  top:11rem;
-                                                  }
-                                            .lake{
-                                                 height:15.625rem;
-                                                 width:45rem;
-                                                 }
-                                            .comp2{
-                                                  height:10rem;
-                                                  width:10rem;
-                                                  left:20rem;
-                                                  }
-                                            .esp{
-                                                  width : 5rem;
-                                                  height: 5rem;
-                                                  left: 15rem;
-                                                }
-                                            .top_cloud{
-                                                       width: 7rem;
-                                                       height: 6rem;
-                                                       right:2rem;
-                                                       top:0rem;
-                                                      }
-                                            .bottom_cloud{
-                                                         width: 7rem;
-                                                         height: 6rem;
-                                                         left:2.5rem;
-                                                         bottom: 15.625rem;
-                                                         }
-
-                                            .profile{height:25rem;}
-                                            .profile-text1{font-size:3rem;}
-                                            .profile-text2{font-size:1rem;}
-                                            .mid_container{width:45rem;}
-                                            .manager{
-                                                     width:6.7rem;
-                                                     height:6.7rem;
-                                                     left:0rem;
-                                                    }
-                                            .managerL{
-                                                     width:6.7rem;
-                                                     height:6.7rem;
-                                                     left:0rem;
-                                                    }
-                                            .managerL2{
-                                                     width:6.7rem;
-                                                     height:6.7rem;
-                                                     left:0rem;
-                                                    }
-
-                                            .comp{
-                                                  width:6.7rem;
-                                                  height:6.7rem;
-                                                  right:0rem;
-                                                 }
-                                            .compL{
-                                                  width:6.7rem;
-                                                  height:6.7rem;
-                                                  right:0rem;
-                                                 }
-
-                                            .skills{
-                                                    padding-left:3rem;
-                                                    padding-right:3rem;
-                                                    font-size:1rem;
-                                                   }
-                                            .skill1A{
-                                                     left:0rem;
-                                                     }
-                                            .skill1AL{left:0;}
-
-                                            .skill1B{
-                                                     width:28rem;
-                                                    }
-                                            .skill2A{
-                                                     width:28rem;
-                                                     }
-                                            .skill2B{
-                                                     right:0rem;
-                                                    }
-                                            .skill2BL{right:0rem;}
-                                            .middle{padding: 0rem 0rem 0rem 0rem;}
-                                            .text2{padding:0rem 0rem 0rem 0rem;}
-                                            .school{width:32rem;
-                                                    height:8rem;
-                                                   }
-                                            .sb_1{
-                                                  padding:0rem;
-                                                  width:auto;
-                                                  }
-                                            .skill_list{width:26rem;
-                                                        padding-left:1rem;}
-                                            .h1_sk{font-size:3.5rem;}
-                                            .logo{
-                                                  height:3rem;
-                                                  weight:3rem;
-                                                  }
-                                            .p_logo{
-                                                     height:3rem;
-                                                     weight:3rem;
-                                                     }
-                                            .name1{padding-top:0rem;
-                                                   top:0.2rem;}
-                                            .name{width:10rem;
-                                                  top:0.2rem;
-                                                  padding-top:0rem;}
-                                            .h3_text{font-size:1.5rem;}
-                                            .h_text{width:30rem;}
-                                            .contact_text{font-text:1.3rem;
-                                                          font-family:'Sriracha', sans-serif;}
-                                            .top_container3{width:45rem;
-                                                            height:8rem;}
-                                            .h3_edu{font-size:2.1rem;}
-                                            .h3_mid{padding-bottom:0rem;
-                                                    font-size:1.5rem;
-                                                    height:2.3rem;
-                                                    width:5rem;
-                                                    padding-bottom:0rem;
-                                                    border-width:2.5rem;
-                                                    border:0.2rem solid #004f8b;
-                                                    border-radius: 2rem;
-                                                    }
-                                            .school{width:34rem;}
-                                            .lines{font-size:1.1rem;}
-                                            .education_b{
-                                                         height:29rem;
-                                                         }
-                                            .company{
-                                                     width:28rem;
-                                                     height:3rem;
-                                                     border-width:2.5rem;
-                                                     border:0.2rem solid #004f8b;
-                                                     border-radius: 2rem;
-                                                     }
-                                            .hobby{
-                                                   padding-top:0.5rem;
-                                                  }
-                                            .hobby_h3A{font-size:2rem;}
-                                            .hobby_h3B{font-size:1.5rem;}
-                                            .h_logo{}
-                                            .hobbies{
-                                                     padding-top:0.5rem;
-                                                     padding-left:4rem;
-                                                     padding-right:4rem;
-                                                     padding-bottom:0.5rem;
-                                                     }
-                                            .h_text{
-                                                    width:30rem;
-                                                    font-size:1.2rem;
-                                                    bottom:0.7rem;
-                                                    left:1rem;
-                                                    }
-                                            .bottom_container{width:45rem;}
-                                            .BUTTON_ZHS{font-size: 1.5625rem;}
-                                            .BUTTON_ZH{font-size: 1.5625rem;}
-                                            .BUTTON_Z{font-size:1.5625rem;}
-                                            .footer-link{width:3rem;
-                                                         height:3rem;}
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {   }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Levent Karaca site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital@1&family=Martel+Sans&family=Merriweather&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+    <link rel="icon" href="Images/favicon2.ico">
+</head>
+<body>
+<div class="canvas">
+    <div class="main">
+        <div class="top_container">
+            <h1 class="t_h1">I'm Levent.</h1>
+            <h2 class="t_lh2">a programmer.</h2>
+            <img class="top_cloud" src="Images/clouds.png" alt="cloud 1 pic">
+            <img class="lake" src="Images/lake.png" alt="mountain-img">
+            <img class="comp2" src="Images/binary-code.png" alt="comp img">
+            <img class="esp" src="Images/espresso.png" alt="comp img">
+            <img class="bottom_cloud" src="Images/cloud-computing.png" alt="cloud-img">
+        </div>
+        <div class="mid_container">
+            <hr>
+            <div class="profile">
+                <img src="Images/pic1.jpg" alt="profile pic" width="120" height="150" style="border-radius: 30%">
+                <h2 class="profile-text1">Hello.</h2>
+                <p class="profile-text2">I am a manager and a programmer. I worked as manager for years. Then I found my passion for coding. And now I am working as a freelance programmer. I am a person who searches for and discovers new ways of life and work. There is always something to improve and always move forward.</p>
+                <br>
+            </div>
+            <hr>
+            <div class="skills">
+                <div class="skill_hadder">
+                    <h2>My Skills</h2>
+                </div>
+                <br>
+                <div class="skill_block">
+                    <div class="skill-row">
+                        <div class="skill1A">
+                            <img class="manager" src="Images/manager.png" width="100rem" height="100rem"  alt="manager pic" style="border-radius: 50%">
+                        </div>
+                        <div class="skill1B">
+                            <h3 class="h3_skills">Manager</h3>
+                            <p class="hobby_h3">I have years of management experience in both tourism and manufacturing. I love working with other people and reaching a goal as a team or as a company.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr class="dots">
+                    <div class="skill-row">
+                        <div class="skill2A">
+                            <h3 class="h3_skills">Programmer</h3>
+                            <p class="hobby_h3">Programming started as a hobby, then I worked at a company as a computer engineer. Now I am a freelancer, and I enjoy being a programmer. I push myself to be better every day.</p>
+                        </div>
+                        <div class="skill2B">
+                            <img class="comp" src="Images/computer.png" width="100" height="100" alt="computer pic">
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr class="dots">
+                    <div class="skill-row">
+                        <div class="skill1AL">
+                            <img class="managerL" src="Images/skill.png" width="100" height="100"  alt="manager pic" style="border-radius: 50%">
+                            <div class="middle">
+                                <a href="Skills.html">
+                                    <div class="text">Skill List</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skill1B">
+                            <h3 class="h3_skills">Skill List</h3>
+                            <p class="hobby_h3">I love learning new skills. From soldering to designing signboards,
+                                from managing to coding. Over the years, I have acquired many skills. Cooking,
+                                electrician, mixologist, and many more... here are some work-related skills.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr class="dots">
+                    <div class="skill-row">
+                        <div class="skill2A">
+                            <h3 class="h3_skills">Education & Work Experience</h3>
+                            <p class="hobby_h3">"Education is not preparation for life; education is life itself."
+                                —John Dewey. I believe learning and education never end.
+                                I like to learn new things from school, from people, from books, and from life itself.
+                                Here is my Education and Work experience</p>
+                        </div>
+                        <div class="skill2BL">
+                            <div class="images">
+                                <a href="Education_work.html">
+                                    <img class="compL" src="Images/curriculum.png" width="100" height="100" alt="computer pic">
+                                </a>
+                            </div>
+                            <div class="middle">
+                                <a href="Education_work.html">
+                                    <div class="text2">Education and Work experience</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <hr class="dots">
+                    <div class="skill-row">
+                        <div class="skill1AL">
+                            <div class="images">
+                                <a href="Hobbies.html">
+                                    <img class="managerL2" src="Images/puzzle.png" width="100" height="100"  alt="manager pic" style="border-radius: 50%">
+                                </a>
+                            </div>
+                            <div class="middle">
+                                <a href="Hobbies.html">
+                                    <div class="text">Hobbies</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="skill1B">
+                            <h3 class="h3_skills">Hobbies</h3>
+                            <p class="hobby_h3">Hobbies are big part of life. Things that make us happy and fulfill.
+                                I think without hobbies, life will be monotonous and boring. Here is the list of my hobbies.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2 class="contact_head">Get In Touch</h2>
+                <h2 class="contact_text">If I can help you with my skill set.</h2>
+                <h2 class="contact_text">lets talk about what we can achieve together.</h2>
+                <img class="shake" src="Images/handshake.png" width="100" height="60" alt="shake pic">
+                <br>
+                <br>
+                <a href="mailto:leventkaracawork@gmail.com" class="BUTTON_ZHS">CONTACT ME</a>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="bottom_container">
+            <hr>
+            <br>
+            <br>
+            <a href="https://twitter.com/"><img class="footer-link" src="Images/twitter.png" width="40" height="40" alt="twitter pic"></a>
+            <a href="https://instagram.com/"><img class="footer-link" src="Images/instagram.png" width="40" height="40" alt="instagram pic"></a>
+            <a href="https://linkedin.com/"><img class="footer-link" src="Images/linkedin.png" width="40" height="40" alt="linkedin pic"></a>
+            <p>© 2022 Levent Karaca.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
